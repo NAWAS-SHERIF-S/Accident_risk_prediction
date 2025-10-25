@@ -1,19 +1,17 @@
-
-
 import pandas as pd
 import xgboost as xgb
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import joblib
 import matplotlib.pyplot as plt
-
+import os
 
 print("Loading preprocessed datasets...")
-X_train = pd.read_csv(r"D:\AIML Hackathon\X_train_processed.csv")
-X_test = pd.read_csv(r"D:\AIML Hackathon\X_test_processed.csv")
-y_train = pd.read_csv(r"D:\AIML Hackathon\y_train_processed.csv").values.ravel()
-y_test = pd.read_csv(r"D:\AIML Hackathon\y_test_processed.csv").values.ravel()
+X_train = pd.read_csv("processed_data/X_train_processed.csv")
+X_test = pd.read_csv("processed_data/X_test_processed.csv")
+y_train = pd.read_csv("processed_data/y_train_processed.csv").values.ravel()
+y_test = pd.read_csv("processed_data/y_test_processed.csv").values.ravel()
 
-print(f"✅ Data loaded: {X_train.shape[0]} training rows, {X_test.shape[0]} testing rows")
+print(f"Data loaded: {X_train.shape[0]} training rows, {X_test.shape[0]} testing rows")
 
 xgb_model = xgb.XGBClassifier(
     n_estimators=300,          # number of boosting rounds (trees)
@@ -52,6 +50,6 @@ xgb.plot_importance(xgb_model)
 plt.title("Feature Importance - SafeRoads XGBoost")
 plt.show()
 
-joblib.dump(xgb_model, r"D:\AIML Hackathon\saferoads_xgb_model.pkl")
-print("\nModel saved as saferoads_xgb_model.pkl in D:\\AIML Hackathon")
+joblib.dump(xgb_model, "model.pkl")
+print("\nModel saved as model.pkl for Flask app")
 
