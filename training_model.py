@@ -13,10 +13,10 @@ X_test = pd.read_csv(r"D:\AIML Hackathon\X_test_processed.csv")
 y_train = pd.read_csv(r"D:\AIML Hackathon\y_train_processed.csv").values.ravel()
 y_test = pd.read_csv(r"D:\AIML Hackathon\y_test_processed.csv").values.ravel()
 
-print(f"✅ Data loaded: {X_train.shape[0]} training rows, {X_test.shape[0]} testing rows")
+print(f"Data loaded: {X_train.shape[0]} training rows, {X_test.shape[0]} testing rows")
 
 xgb_model = xgb.XGBClassifier(
-    n_estimators=300,          # number of boosting rounds (trees)
+    n_estimators=300,          # number of boosting trees
     learning_rate=0.05,        # step size shrinkage
     max_depth=6,               # tree depth
     subsample=0.8,             # fraction of data used per tree
@@ -25,12 +25,12 @@ xgb_model = xgb.XGBClassifier(
     random_state=42
 )
 
-print("\n Training XGBoost model...")
+print("\n Training XGBoost model")
 xgb_model.fit(X_train, y_train)
 
 print(" Model training completed!")
 
-print("\n Evaluating model...")
+print("\n Evaluating model")
 y_pred = xgb_model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
