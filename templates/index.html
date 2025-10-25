@@ -113,9 +113,12 @@
                         <small>Risk Score: ${result.risk_score}/6</small>
                     `;
                     resultDiv.className = `result ${result.risk_level.toLowerCase()}`;
+                    
+
                 } else {
                     resultDiv.innerHTML = `Error: ${result.error}`;
                     resultDiv.className = 'result high';
+
                 }
                 
                 resultDiv.style.display = 'block';

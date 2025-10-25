@@ -46,24 +46,23 @@ def predict():
         road_type = int(data.get('road_type', 0))  # 0=Highway, 1=Urban, 2=Rural
         time_of_day = int(data.get('time_of_day', 0))  # 0=Morning, 1=Afternoon, 2=Evening, 3=Night
         
-        # Simple risk calculation logic
-        risk_score = 0
+        # Calculate individual factor contributions
+        weather_score = 0
+        if weather == 1: weather_score = 1  # Rain
+        elif weather == 2: weather_score = 2  # Snow
+        elif weather == 3: weather_score = 1  # Fog
         
-        # Weather impact
-        if weather == 1: risk_score += 1  # Rain
-        elif weather == 2: risk_score += 2  # Snow
-        elif weather == 3: risk_score += 1  # Fog
+        traffic_score = traffic_density  # 0, 1, or 2
         
-        # Traffic density impact
-        risk_score += traffic_density  # 0, 1, or 2
+        road_score = 0
+        if road_type == 1: road_score = 1  # Urban roads more risky
+        elif road_type == 2: road_score = 0.5  # Rural moderate risk
         
-        # Road type impact
-        if road_type == 1: risk_score += 1  # Urban roads more risky
-        elif road_type == 2: risk_score += 0.5  # Rural moderate risk
+        time_score = 0
+        if time_of_day == 2: time_score = 1  # Evening rush
+        elif time_of_day == 3: time_score = 1.5  # Night driving
         
-        # Time of day impact
-        if time_of_day == 2: risk_score += 1  # Evening rush
-        elif time_of_day == 3: risk_score += 1.5  # Night driving
+        risk_score = weather_score + traffic_score + road_score + time_score
         
         # Determine risk level
         if risk_score <= 1.5:
@@ -80,7 +79,13 @@ def predict():
             'success': True,
             'risk_level': risk_level,
             'confidence': f"{confidence}%",
-            'risk_score': round(risk_score, 1)
+            'risk_score': round(risk_score, 1),
+            'factor_breakdown': {
+                'Weather': round(weather_score, 1),
+                'Traffic': round(traffic_score, 1),
+                'Road Type': round(road_score, 1),
+                'Time of Day': round(time_score, 1)
+            }
         })
             
     except Exception as e:
