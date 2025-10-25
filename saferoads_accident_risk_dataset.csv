@@ -1,0 +1,1001 @@
+timestamp,route_id,latitude,longitude,weather,temperature_C,humidity_%,traffic_density,road_type,road_condition,num_lanes,speed_limit,vehicle_count,visibility_km,time_of_day,day_of_week,holiday,past_accidents,population_density,light_condition,risk_level
+2023-01-01 00:00:00,572,14.3026,78.6873,Foggy,35.3,95,120,Residential,Fair,1,40,191,7.4,Morning,Tue,0,9,659,Dark,Medium
+2023-01-01 01:00:00,688,24.4587,71.9512,Rainy,36.8,72,154,Residential,Fair,6,100,228,8.0,Morning,Sun,0,0,1375,Street Light,Medium
+2023-01-01 02:00:00,936,9.5588,72.7633,Snowy,19.1,63,186,City,Good,2,100,11,4.3,Morning,Sun,0,8,1109,Daylight,High
+2023-01-01 03:00:00,840,15.1109,79.6155,Foggy,27.6,50,110,City,Poor,3,40,270,4.7,Evening,Thu,0,1,166,Dark,Medium
+2023-01-01 04:00:00,498,35.3476,75.0886,Sunny,31.7,63,153,City,Good,3,80,339,7.0,Morning,Wed,0,3,159,Street Light,Low
+2023-01-01 05:00:00,649,19.7394,94.1893,Rainy,24.3,84,285,Rural,Poor,1,60,240,3.6,Afternoon,Mon,0,2,734,Dark,High
+2023-01-01 06:00:00,839,30.2346,94.599,Cloudy,32.0,56,241,Highway,Poor,1,60,145,9.4,Night,Fri,0,9,111,Daylight,Medium
+2023-01-01 07:00:00,211,35.2475,95.0087,Foggy,8.9,80,31,City,Good,1,60,264,6.0,Afternoon,Sun,0,8,738,Daylight,Medium
+2023-01-01 08:00:00,932,34.9005,96.7212,Foggy,42.2,37,78,Rural,Fair,3,60,92,5.4,Morning,Tue,0,5,1258,Daylight,Medium
+2023-01-01 09:00:00,482,25.3786,83.9624,Rainy,28.5,85,163,City,Good,3,80,217,7.4,Night,Mon,0,8,356,Daylight,Medium
+2023-01-01 10:00:00,906,23.3703,76.6698,Snowy,8.6,53,214,City,Good,2,40,136,7.2,Afternoon,Thu,0,2,1042,Daylight,Medium
+2023-01-01 11:00:00,672,13.4592,87.4858,Rainy,36.3,79,206,City,Poor,3,40,24,2.8,Night,Sun,1,3,1516,Daylight,High
+2023-01-01 12:00:00,387,16.246,68.0978,Snowy,9.6,50,172,Residential,Poor,2,100,365,2.9,Morning,Tue,0,7,277,Dark,High
+2023-01-01 13:00:00,706,34.1402,77.6207,Rainy,6.7,70,270,Residential,Good,1,80,357,3.5,Afternoon,Fri,0,2,1573,Dark,Medium
+2023-01-01 14:00:00,371,25.7856,73.4304,Foggy,22.1,89,27,City,Good,3,80,390,9.4,Night,Wed,0,6,1643,Daylight,Medium
+2023-01-01 15:00:00,782,25.3672,96.5188,Foggy,36.5,99,85,Highway,Poor,3,80,99,4.2,Evening,Mon,0,5,1235,Street Light,Medium
+2023-01-01 16:00:00,243,19.0714,77.175,Foggy,41.7,54,192,Residential,Fair,1,40,51,9.1,Night,Thu,0,8,631,Dark,Medium
+2023-01-01 17:00:00,628,13.3394,80.1036,Rainy,23.0,87,112,Highway,Poor,1,100,28,8.3,Afternoon,Wed,0,5,799,Daylight,High
+2023-01-01 18:00:00,820,25.3838,85.7131,Snowy,19.0,43,118,Highway,Poor,1,40,213,1.1,Night,Fri,0,5,167,Street Light,High
+2023-01-01 19:00:00,619,21.42,93.2075,Sunny,43.1,85,119,Residential,Fair,2,80,231,2.9,Afternoon,Fri,0,4,412,Daylight,Low
+2023-01-01 20:00:00,162,15.4065,78.8611,Rainy,23.9,65,179,Residential,Fair,1,40,248,8.0,Morning,Mon,0,6,628,Daylight,Medium
+2023-01-01 21:00:00,984,31.3956,83.255,Snowy,27.3,73,283,City,Poor,2,40,337,3.6,Night,Tue,1,8,1129,Daylight,High
+2023-01-01 22:00:00,318,34.3184,96.3249,Foggy,18.5,37,222,Highway,Good,3,80,270,9.3,Afternoon,Sat,0,6,814,Daylight,Medium
+2023-01-01 23:00:00,445,19.0983,91.5214,Cloudy,8.8,89,293,Residential,Poor,3,100,98,1.7,Afternoon,Thu,0,0,732,Daylight,High
+2023-01-02 00:00:00,242,27.0913,96.643,Sunny,14.6,88,256,Residential,Poor,4,80,58,4.6,Evening,Mon,0,7,1447,Street Light,Medium
+2023-01-02 01:00:00,939,27.9565,79.5237,Rainy,40.7,89,23,Rural,Poor,6,80,245,9.0,Afternoon,Thu,0,3,270,Street Light,Medium
+2023-01-02 02:00:00,346,20.3957,81.5691,Snowy,24.2,31,156,Residential,Good,2,40,263,7.7,Morning,Sun,0,2,1125,Street Light,Low
+2023-01-02 03:00:00,689,32.5822,73.3232,Sunny,24.9,55,135,Residential,Poor,4,100,215,3.1,Evening,Fri,0,1,1329,Daylight,Medium
+2023-01-02 04:00:00,838,25.9862,86.9398,Foggy,24.8,90,164,City,Good,1,60,51,1.9,Afternoon,Sun,0,5,637,Daylight,Medium
+2023-01-02 05:00:00,611,36.3357,69.7847,Foggy,11.7,55,51,City,Poor,2,60,84,7.1,Morning,Sun,0,1,997,Daylight,Medium
+2023-01-02 06:00:00,228,30.3705,72.6907,Snowy,16.2,50,141,Residential,Poor,6,40,182,7.9,Afternoon,Fri,1,0,592,Daylight,Medium
+2023-01-02 07:00:00,161,26.6223,72.5884,Rainy,30.2,94,67,Highway,Poor,1,40,208,7.7,Afternoon,Wed,0,8,1630,Street Light,Medium
+2023-01-02 08:00:00,842,36.6572,78.7438,Cloudy,31.8,97,202,City,Good,1,100,248,9.9,Evening,Sat,0,4,109,Daylight,Medium
+2023-01-02 09:00:00,130,26.6813,81.4004,Rainy,8.5,89,28,City,Poor,2,80,171,5.3,Morning,Sat,0,1,1312,Daylight,Medium
+2023-01-02 10:00:00,600,8.578,83.2015,Snowy,38.1,97,220,City,Fair,4,40,30,6.4,Morning,Sat,0,1,612,Dark,Medium
+2023-01-02 11:00:00,662,15.351,72.8026,Sunny,10.8,80,261,City,Poor,2,100,87,7.7,Morning,Sun,0,2,1592,Daylight,Medium
+2023-01-02 12:00:00,726,34.7656,71.87,Sunny,19.6,48,51,Residential,Poor,2,60,273,5.0,Night,Wed,1,7,1016,Dark,Medium
+2023-01-02 13:00:00,723,29.9397,89.1316,Snowy,24.5,35,95,Highway,Fair,1,60,256,6.2,Afternoon,Tue,0,3,960,Daylight,Low
+2023-01-02 14:00:00,738,36.3342,70.1441,Cloudy,27.2,97,242,Rural,Poor,6,80,191,9.1,Evening,Thu,0,2,1383,Street Light,Medium
+2023-01-02 15:00:00,713,20.2615,79.196,Snowy,26.3,77,287,City,Poor,2,60,168,2.3,Morning,Mon,0,4,549,Street Light,High
+2023-01-02 16:00:00,655,16.8418,74.4887,Foggy,22.6,74,163,City,Good,3,60,235,7.9,Evening,Wed,0,6,1054,Street Light,Medium
+2023-01-02 17:00:00,849,21.9271,78.0118,Snowy,41.1,69,208,City,Poor,3,80,44,8.2,Afternoon,Fri,0,2,1519,Dark,High
+2023-01-02 18:00:00,275,13.9762,70.8597,Foggy,19.4,69,28,Highway,Good,6,40,68,5.0,Afternoon,Mon,0,4,321,Dark,Low
+2023-01-02 19:00:00,477,35.0447,75.2181,Foggy,17.2,89,229,Rural,Poor,4,40,187,7.6,Afternoon,Mon,0,7,263,Street Light,High
+2023-01-02 20:00:00,445,23.7004,68.0894,Cloudy,41.5,38,106,City,Fair,2,60,69,2.0,Night,Tue,0,7,449,Street Light,Medium
+2023-01-02 21:00:00,788,18.3621,73.1199,Rainy,9.6,33,234,Residential,Good,4,80,32,6.0,Afternoon,Thu,0,5,1384,Daylight,Medium
+2023-01-02 22:00:00,637,36.3488,75.1365,Rainy,21.5,36,156,City,Poor,4,100,164,9.5,Night,Fri,0,8,708,Dark,High
+2023-01-02 23:00:00,803,9.4816,89.0973,Cloudy,42.1,77,288,Residential,Fair,3,80,315,6.6,Morning,Tue,1,5,1163,Dark,Medium
+2023-01-03 00:00:00,690,36.8628,78.6393,Foggy,23.5,72,170,Residential,Fair,4,40,283,9.4,Evening,Wed,0,2,890,Daylight,Low
+2023-01-03 01:00:00,340,16.2046,83.7393,Snowy,9.7,96,120,City,Poor,6,60,60,3.6,Morning,Mon,0,3,854,Daylight,Medium
+2023-01-03 02:00:00,858,15.0878,73.9351,Foggy,12.0,85,291,Residential,Good,3,40,197,6.6,Evening,Mon,1,6,1127,Street Light,Medium
+2023-01-03 03:00:00,791,21.8155,93.3932,Rainy,26.4,70,53,Highway,Fair,6,80,390,7.7,Morning,Thu,0,7,1989,Street Light,Medium
+2023-01-03 04:00:00,641,14.3635,72.6945,Snowy,25.9,38,21,Rural,Poor,1,60,390,3.4,Night,Mon,0,1,1047,Street Light,Medium
+2023-01-03 05:00:00,275,26.7336,92.682,Snowy,20.1,36,170,Rural,Good,4,100,125,1.5,Morning,Thu,0,3,1277,Daylight,Medium
+2023-01-03 06:00:00,254,21.3189,84.5354,Cloudy,41.9,35,54,Highway,Poor,3,40,157,0.7,Morning,Thu,0,8,1564,Street Light,Medium
+2023-01-03 07:00:00,121,9.043,82.6358,Snowy,24.9,36,201,City,Good,4,40,215,7.0,Night,Tue,0,4,238,Street Light,Medium
+2023-01-03 08:00:00,285,25.2198,82.7788,Foggy,38.9,69,20,City,Fair,4,100,181,2.6,Evening,Tue,1,4,1115,Dark,Medium
+2023-01-03 09:00:00,103,35.5541,95.5752,Rainy,31.8,92,275,Highway,Good,1,80,354,8.3,Morning,Sun,0,9,1187,Street Light,Medium
+2023-01-03 10:00:00,925,10.7997,74.7923,Sunny,17.8,30,267,City,Poor,2,40,288,3.8,Evening,Tue,0,6,1330,Daylight,Medium
+2023-01-03 11:00:00,681,21.5976,70.5736,Snowy,35.5,78,200,Rural,Fair,1,80,200,9.6,Afternoon,Wed,1,3,1709,Daylight,Medium
+2023-01-03 12:00:00,346,35.9153,96.2517,Foggy,37.9,48,161,City,Poor,3,60,103,8.8,Afternoon,Sat,0,7,668,Dark,Medium
+2023-01-03 13:00:00,100,30.7464,92.977,Foggy,39.4,94,181,City,Poor,4,80,151,6.2,Morning,Sat,0,1,1224,Dark,High
+2023-01-03 14:00:00,648,17.6883,76.6822,Rainy,39.6,41,121,City,Good,1,40,130,5.1,Evening,Thu,0,1,1403,Daylight,Low
+2023-01-03 15:00:00,207,22.1583,79.7677,Foggy,28.1,59,107,Highway,Fair,4,60,73,8.2,Morning,Sun,0,8,1961,Dark,Medium
+2023-01-03 16:00:00,598,31.8763,79.9881,Foggy,34.2,37,116,Highway,Good,6,40,268,7.1,Morning,Sun,0,7,1774,Daylight,Medium
+2023-01-03 17:00:00,915,35.1327,73.1859,Foggy,18.1,34,196,Highway,Fair,4,80,386,7.1,Night,Thu,0,3,631,Street Light,Medium
+2023-01-03 18:00:00,393,25.2506,68.2769,Snowy,15.3,81,83,City,Poor,1,60,200,1.8,Night,Fri,0,8,412,Street Light,High
+2023-01-03 19:00:00,935,18.941,76.8073,Snowy,18.6,52,38,Rural,Fair,1,60,171,8.1,Evening,Wed,0,7,109,Daylight,Medium
+2023-01-03 20:00:00,509,16.9186,95.541,Sunny,39.2,89,274,Rural,Good,1,100,265,9.2,Night,Wed,0,5,827,Dark,Medium
+2023-01-03 21:00:00,113,27.1142,83.5002,Rainy,15.1,60,84,Rural,Poor,6,40,61,4.6,Night,Fri,0,0,1654,Daylight,Medium
+2023-01-03 22:00:00,165,14.9817,96.6915,Cloudy,39.0,69,35,City,Good,2,60,78,5.1,Morning,Fri,0,3,1136,Daylight,Low
+2023-01-03 23:00:00,513,12.4299,89.3448,Snowy,31.8,87,157,Residential,Poor,3,100,73,3.6,Morning,Thu,0,7,449,Dark,High
+2023-01-04 00:00:00,811,13.568,73.2801,Cloudy,34.1,42,20,City,Fair,6,60,132,1.4,Morning,Mon,0,4,1579,Daylight,Low
+2023-01-04 01:00:00,991,28.9914,85.1804,Snowy,15.9,35,70,Rural,Good,6,40,140,7.4,Afternoon,Thu,0,8,1112,Daylight,Medium
+2023-01-04 02:00:00,678,23.3506,80.6078,Cloudy,28.8,70,153,Residential,Good,3,40,81,5.5,Morning,Tue,0,6,1722,Street Light,Low
+2023-01-04 03:00:00,498,21.6858,83.8019,Foggy,32.1,93,157,Residential,Good,1,60,263,6.3,Morning,Sat,0,6,1241,Street Light,Medium
+2023-01-04 04:00:00,693,19.4109,94.6174,Sunny,20.9,32,104,Residential,Fair,3,40,176,6.6,Night,Tue,0,1,958,Dark,Low
+2023-01-04 05:00:00,448,29.7326,84.4892,Snowy,34.0,55,141,Rural,Fair,4,80,213,2.8,Evening,Wed,0,6,651,Street Light,Medium
+2023-01-04 06:00:00,171,9.6969,86.9631,Rainy,42.2,79,118,City,Poor,3,100,390,6.3,Morning,Sun,0,6,996,Street Light,High
+2023-01-04 07:00:00,607,18.9202,78.4755,Snowy,9.4,37,181,City,Poor,6,100,157,2.4,Night,Tue,0,9,222,Dark,High
+2023-01-04 08:00:00,401,11.3888,82.6325,Snowy,32.8,56,34,Residential,Fair,6,40,292,1.1,Morning,Tue,0,2,1152,Daylight,Medium
+2023-01-04 09:00:00,466,28.5236,72.0196,Sunny,27.6,38,124,City,Poor,6,80,154,8.1,Night,Thu,1,0,287,Daylight,Low
+2023-01-04 10:00:00,476,31.8391,72.1185,Sunny,40.1,34,148,City,Good,1,60,340,9.7,Night,Sat,0,9,830,Dark,Low
+2023-01-04 11:00:00,398,35.1037,72.0031,Sunny,16.3,62,245,Highway,Good,2,80,11,3.3,Afternoon,Thu,0,8,1829,Street Light,Medium
+2023-01-04 12:00:00,420,27.619,68.3061,Snowy,44.5,41,271,Rural,Fair,3,60,341,2.0,Morning,Thu,1,5,1447,Daylight,High
+2023-01-04 13:00:00,639,14.2025,74.1155,Cloudy,24.9,91,242,City,Poor,4,100,254,7.1,Morning,Sun,0,6,1316,Street Light,High
+2023-01-04 14:00:00,679,20.5477,69.193,Cloudy,44.2,94,131,City,Poor,6,100,166,1.8,Morning,Fri,0,0,687,Daylight,Medium
+2023-01-04 15:00:00,141,18.8576,91.6038,Cloudy,10.1,46,69,City,Fair,6,40,321,7.9,Morning,Wed,0,4,1330,Daylight,Low
+2023-01-04 16:00:00,847,17.2996,86.8636,Foggy,20.7,50,101,Highway,Poor,3,40,153,3.6,Afternoon,Tue,0,3,1994,Street Light,Medium
+2023-01-04 17:00:00,417,10.253,86.8332,Rainy,10.4,73,87,City,Poor,1,60,254,6.2,Night,Mon,0,1,1011,Daylight,Medium
+2023-01-04 18:00:00,905,32.8717,75.4472,Foggy,31.0,48,264,City,Fair,4,40,79,3.3,Evening,Fri,1,9,1960,Dark,Medium
+2023-01-04 19:00:00,877,20.4044,86.4445,Rainy,5.5,44,43,City,Fair,6,80,279,4.2,Afternoon,Tue,0,9,1136,Dark,Medium
+2023-01-04 20:00:00,388,17.0853,82.1807,Cloudy,7.9,78,65,Highway,Poor,4,100,206,6.7,Morning,Sat,1,5,116,Daylight,Medium
+2023-01-04 21:00:00,643,10.8773,83.6069,Snowy,19.9,63,191,Highway,Good,1,80,372,6.2,Morning,Mon,0,3,729,Daylight,Medium
+2023-01-04 22:00:00,872,24.4615,69.1253,Rainy,19.2,43,72,City,Good,6,80,68,9.5,Night,Sat,1,1,1408,Street Light,Low
+2023-01-04 23:00:00,562,9.2632,88.1117,Cloudy,23.0,40,49,Rural,Fair,3,80,89,7.3,Morning,Thu,0,0,1395,Daylight,Low
+2023-01-05 00:00:00,715,9.8234,77.288,Snowy,6.2,76,180,Highway,Good,6,80,353,1.5,Evening,Mon,0,2,1572,Dark,Medium
+2023-01-05 01:00:00,938,17.7683,76.7525,Rainy,14.9,69,114,Residential,Fair,6,100,124,8.2,Morning,Sat,0,0,694,Dark,Medium
+2023-01-05 02:00:00,309,9.9334,72.7834,Snowy,22.5,80,288,Rural,Good,3,60,212,5.9,Evening,Fri,0,9,1498,Daylight,Medium
+2023-01-05 03:00:00,292,12.3376,92.6866,Foggy,6.6,94,130,Rural,Good,2,80,323,10.0,Afternoon,Wed,0,5,900,Street Light,Medium
+2023-01-05 04:00:00,481,23.1058,78.7789,Rainy,7.6,42,247,Rural,Poor,1,40,116,7.3,Afternoon,Wed,0,6,356,Daylight,High
+2023-01-05 05:00:00,742,16.6638,75.1372,Cloudy,13.0,98,121,Rural,Poor,3,60,270,7.6,Night,Fri,0,4,824,Dark,Low
+2023-01-05 06:00:00,376,13.3869,68.0656,Rainy,32.6,80,93,Residential,Fair,3,100,387,5.7,Evening,Fri,0,9,629,Daylight,Medium
+2023-01-05 07:00:00,869,23.3058,85.4377,Sunny,38.3,74,164,Rural,Poor,1,100,183,2.1,Afternoon,Mon,0,2,381,Daylight,Medium
+2023-01-05 08:00:00,682,28.9201,70.7252,Cloudy,5.2,61,237,Residential,Poor,4,100,144,6.7,Evening,Sun,0,9,163,Street Light,High
+2023-01-05 09:00:00,372,16.2041,90.0163,Snowy,33.0,33,54,Rural,Fair,4,40,77,2.4,Morning,Fri,0,5,1832,Daylight,Medium
+2023-01-05 10:00:00,208,25.8237,73.8328,Rainy,29.2,45,261,Highway,Good,6,100,30,5.7,Night,Sun,0,1,1365,Street Light,Medium
+2023-01-05 11:00:00,755,19.3471,71.3133,Cloudy,37.2,72,112,Highway,Poor,3,80,71,8.1,Evening,Wed,0,9,1130,Street Light,Medium
+2023-01-05 12:00:00,881,9.4778,85.0402,Cloudy,42.0,94,90,City,Good,3,100,63,5.7,Night,Sat,0,9,629,Street Light,Low
+2023-01-05 13:00:00,791,31.1537,92.9463,Cloudy,10.7,52,96,Highway,Fair,1,80,277,1.2,Afternoon,Thu,0,6,1800,Dark,Medium
+2023-01-05 14:00:00,984,22.9108,90.0116,Rainy,23.2,76,82,Highway,Fair,4,60,236,5.2,Afternoon,Mon,0,2,188,Daylight,Low
+2023-01-05 15:00:00,484,32.5178,94.008,Sunny,44.7,82,95,City,Fair,6,40,242,7.9,Afternoon,Thu,0,6,206,Street Light,Low
+2023-01-05 16:00:00,630,29.719,92.588,Sunny,40.0,94,295,Highway,Fair,1,80,111,1.6,Evening,Wed,0,0,296,Street Light,Medium
+2023-01-05 17:00:00,798,35.5994,85.9859,Cloudy,31.9,78,139,Residential,Fair,3,40,33,2.9,Evening,Mon,1,3,1275,Dark,Low
+2023-01-05 18:00:00,890,35.3379,80.2797,Cloudy,38.7,60,66,Rural,Fair,2,60,182,4.5,Night,Tue,0,6,573,Daylight,Low
+2023-01-05 19:00:00,144,8.173,68.7797,Cloudy,24.0,84,51,City,Good,3,40,374,6.5,Evening,Thu,0,3,1471,Street Light,Low
+2023-01-05 20:00:00,861,22.8976,88.1404,Cloudy,36.0,97,34,City,Good,4,100,261,9.6,Morning,Mon,0,9,1405,Daylight,Low
+2023-01-05 21:00:00,714,31.5578,93.8604,Sunny,36.3,85,260,Rural,Good,6,60,368,4.1,Morning,Mon,0,9,1745,Daylight,Medium
+2023-01-05 22:00:00,756,9.581,93.1289,Rainy,13.0,95,213,City,Fair,4,40,387,5.6,Night,Sun,0,2,825,Daylight,Medium
+2023-01-05 23:00:00,221,34.3518,93.6259,Foggy,38.5,80,94,Highway,Poor,4,80,86,5.9,Afternoon,Mon,1,5,1224,Street Light,Medium
+2023-01-06 00:00:00,964,22.4042,85.1411,Foggy,29.2,88,137,Highway,Fair,2,100,36,1.8,Evening,Fri,0,6,1908,Daylight,High
+2023-01-06 01:00:00,886,27.681,78.4172,Snowy,38.7,36,286,Highway,Good,2,100,102,4.1,Morning,Mon,0,5,178,Dark,High
+2023-01-06 02:00:00,126,25.0525,80.0796,Rainy,27.6,74,234,City,Good,6,80,147,6.4,Morning,Sat,0,2,957,Daylight,Medium
+2023-01-06 03:00:00,698,15.5212,85.6846,Sunny,21.2,80,247,Rural,Good,4,60,274,4.6,Afternoon,Fri,0,3,882,Street Light,Low
+2023-01-06 04:00:00,321,27.3566,84.0254,Cloudy,22.1,54,297,Highway,Fair,1,60,272,1.2,Afternoon,Wed,1,6,257,Dark,Medium
+2023-01-06 05:00:00,541,12.0129,85.7843,Cloudy,32.8,68,201,City,Fair,3,40,289,8.3,Morning,Thu,0,7,1962,Daylight,Medium
+2023-01-06 06:00:00,975,28.3061,96.7091,Rainy,17.7,92,158,Highway,Poor,6,60,67,3.2,Night,Fri,0,9,1913,Dark,Medium
+2023-01-06 07:00:00,486,20.4316,75.9009,Cloudy,34.0,63,190,Highway,Good,4,100,15,6.1,Evening,Sun,0,1,173,Street Light,Medium
+2023-01-06 08:00:00,844,24.0924,74.3689,Cloudy,27.1,62,137,Highway,Poor,6,40,100,8.1,Night,Wed,0,3,840,Street Light,Low
+2023-01-06 09:00:00,178,21.0564,77.0098,Cloudy,8.3,75,246,Rural,Poor,4,60,190,1.4,Morning,Thu,0,5,290,Dark,High
+2023-01-06 10:00:00,526,34.1142,88.9137,Snowy,29.5,33,224,Residential,Good,4,80,237,9.2,Night,Fri,0,2,1005,Daylight,Medium
+2023-01-06 11:00:00,637,11.3318,68.9813,Foggy,10.6,87,113,City,Poor,3,80,64,8.4,Morning,Sun,0,5,744,Dark,Medium
+2023-01-06 12:00:00,849,30.9589,78.2905,Foggy,34.5,83,34,Highway,Poor,2,100,18,9.4,Evening,Sun,0,2,1135,Street Light,Medium
+2023-01-06 13:00:00,209,18.6801,76.5727,Snowy,15.0,69,204,Highway,Good,3,40,74,1.1,Evening,Wed,0,9,589,Street Light,High
+2023-01-06 14:00:00,566,20.5058,77.9648,Snowy,21.4,67,265,City,Fair,1,100,389,4.2,Morning,Sat,1,5,1567,Daylight,High
+2023-01-06 15:00:00,320,35.991,74.4289,Rainy,43.5,95,87,Highway,Poor,6,40,355,5.5,Afternoon,Fri,0,1,566,Dark,Medium
+2023-01-06 16:00:00,120,35.7434,87.691,Rainy,8.9,45,261,Highway,Fair,2,60,307,6.2,Evening,Fri,0,1,1410,Street Light,Medium
+2023-01-06 17:00:00,388,25.0823,94.3242,Cloudy,44.8,98,83,Residential,Fair,4,40,75,8.3,Morning,Fri,0,5,607,Dark,Low
+2023-01-06 18:00:00,191,13.4244,85.1737,Sunny,11.3,88,241,Residential,Good,3,40,38,1.7,Afternoon,Fri,0,3,538,Dark,Medium
+2023-01-06 19:00:00,446,33.8246,85.0591,Rainy,15.3,47,166,City,Poor,3,40,172,3.2,Morning,Thu,0,2,160,Dark,Medium
+2023-01-06 20:00:00,673,27.8275,90.4121,Sunny,10.1,51,92,Rural,Good,3,40,196,7.2,Evening,Thu,1,8,449,Daylight,Low
+2023-01-06 21:00:00,583,23.7747,90.7439,Sunny,27.1,95,78,Rural,Poor,6,80,369,9.9,Evening,Fri,0,3,898,Dark,Low
+2023-01-06 22:00:00,717,13.1931,70.0635,Sunny,10.1,50,27,Highway,Good,3,40,177,4.0,Night,Fri,0,0,1784,Street Light,Low
+2023-01-06 23:00:00,675,10.6775,68.0013,Snowy,11.6,96,116,Residential,Good,6,40,57,9.7,Afternoon,Sun,1,7,152,Daylight,Medium
+2023-01-07 00:00:00,461,28.4484,94.364,Cloudy,44.7,59,254,City,Poor,6,60,260,9.8,Night,Sat,0,7,667,Street Light,Medium
+2023-01-07 01:00:00,508,23.8196,90.2778,Snowy,16.7,38,220,City,Fair,4,80,255,9.8,Evening,Wed,0,8,925,Street Light,Medium
+2023-01-07 02:00:00,149,27.0079,87.8879,Cloudy,28.0,59,52,Residential,Fair,4,80,35,6.0,Afternoon,Sat,0,7,1691,Daylight,Low
+2023-01-07 03:00:00,986,15.2186,74.2956,Snowy,19.5,91,141,City,Fair,3,100,240,4.0,Afternoon,Thu,0,6,853,Dark,Medium
+2023-01-07 04:00:00,916,26.6121,69.853,Sunny,44.7,68,249,Rural,Poor,1,60,138,9.4,Morning,Sun,0,2,137,Dark,Medium
+2023-01-07 05:00:00,722,29.5455,81.4278,Rainy,36.8,56,274,Rural,Good,2,40,339,1.2,Evening,Sat,0,3,395,Dark,High
+2023-01-07 06:00:00,373,20.8827,88.6044,Rainy,14.9,60,288,Highway,Poor,4,40,65,8.4,Afternoon,Mon,0,9,1330,Daylight,High
+2023-01-07 07:00:00,387,13.9041,76.0399,Snowy,14.0,41,149,Rural,Good,3,100,314,7.1,Afternoon,Wed,1,1,1219,Daylight,Medium
+2023-01-07 08:00:00,268,15.2009,96.1547,Snowy,10.1,54,116,City,Good,4,40,221,3.3,Evening,Sat,0,3,1326,Street Light,Low
+2023-01-07 09:00:00,169,16.1722,75.4774,Foggy,24.0,98,85,Residential,Fair,6,100,269,1.5,Night,Fri,0,7,281,Daylight,High
+2023-01-07 10:00:00,440,27.684,86.9045,Foggy,21.9,63,66,Highway,Poor,6,40,348,1.0,Afternoon,Tue,0,3,961,Street Light,High
+2023-01-07 11:00:00,843,35.3259,79.4769,Foggy,17.1,88,187,Highway,Fair,2,60,40,6.7,Morning,Sat,0,2,1498,Dark,Medium
+2023-01-07 12:00:00,664,28.9639,83.4533,Foggy,6.9,65,126,Residential,Poor,4,100,156,6.7,Morning,Sun,0,2,1427,Daylight,Medium
+2023-01-07 13:00:00,798,25.1915,94.8265,Cloudy,30.0,80,196,Residential,Good,2,80,178,5.7,Night,Fri,0,5,1014,Daylight,Medium
+2023-01-07 14:00:00,801,32.274,69.6591,Snowy,23.2,76,47,Residential,Poor,6,60,352,6.6,Night,Mon,0,1,864,Dark,Medium
+2023-01-07 15:00:00,779,28.6875,76.7923,Sunny,35.0,47,73,City,Good,4,60,251,0.9,Morning,Thu,1,1,1910,Street Light,Low
+2023-01-07 16:00:00,497,17.6667,80.472,Snowy,41.0,41,67,Residential,Poor,6,100,75,4.1,Night,Sat,0,4,485,Street Light,Medium
+2023-01-07 17:00:00,485,30.7928,79.6609,Snowy,39.2,62,280,Residential,Fair,6,80,70,6.1,Evening,Sun,0,3,808,Street Light,Medium
+2023-01-07 18:00:00,821,36.8671,85.4906,Foggy,7.1,49,202,Highway,Poor,6,40,173,3.0,Night,Sat,0,7,1549,Street Light,High
+2023-01-07 19:00:00,221,21.8515,79.1099,Rainy,44.9,64,244,Rural,Poor,2,40,369,2.7,Morning,Fri,0,2,254,Daylight,High
+2023-01-07 20:00:00,825,36.5145,87.8021,Sunny,43.9,63,156,Rural,Fair,4,80,155,8.7,Morning,Sun,0,1,1381,Dark,Low
+2023-01-07 21:00:00,407,29.8815,78.4772,Sunny,35.7,81,167,City,Fair,4,100,289,5.7,Night,Fri,0,7,711,Daylight,Low
+2023-01-07 22:00:00,778,10.5813,78.4515,Foggy,40.7,32,32,Residential,Poor,1,40,295,4.3,Night,Fri,0,4,1295,Dark,Medium
+2023-01-07 23:00:00,543,36.1782,76.8011,Rainy,15.3,37,101,Residential,Fair,2,60,355,3.2,Afternoon,Sun,0,2,1270,Dark,Low
+2023-01-08 00:00:00,718,16.9959,71.3139,Sunny,31.2,60,30,City,Good,3,40,149,5.0,Afternoon,Thu,0,9,1985,Dark,Low
+2023-01-08 01:00:00,678,31.0251,76.4102,Snowy,6.3,61,296,Rural,Fair,1,100,291,6.8,Morning,Wed,0,8,564,Dark,High
+2023-01-08 02:00:00,394,16.719,85.6042,Foggy,34.0,43,217,Residential,Good,2,60,286,2.8,Night,Sat,0,7,1560,Dark,High
+2023-01-08 03:00:00,172,14.8463,89.452,Sunny,41.7,36,289,City,Poor,3,60,398,9.6,Evening,Thu,0,4,941,Street Light,Medium
+2023-01-08 04:00:00,820,17.6822,90.0488,Sunny,26.0,70,85,City,Poor,1,100,384,6.3,Evening,Sat,0,5,1801,Dark,Medium
+2023-01-08 05:00:00,854,35.1317,81.1069,Sunny,29.7,53,82,Highway,Good,6,60,247,8.3,Evening,Fri,1,3,915,Street Light,Low
+2023-01-08 06:00:00,859,11.7465,91.207,Sunny,7.6,54,282,City,Fair,4,100,328,6.7,Night,Tue,0,2,808,Daylight,Medium
+2023-01-08 07:00:00,904,10.1048,68.7836,Foggy,32.2,43,94,Highway,Good,1,100,188,1.7,Morning,Thu,0,0,904,Daylight,Medium
+2023-01-08 08:00:00,895,32.3948,91.0562,Rainy,41.3,32,70,Highway,Good,3,60,21,3.8,Evening,Thu,0,0,1951,Street Light,Low
+2023-01-08 09:00:00,166,28.8022,96.147,Foggy,32.9,81,110,Rural,Poor,2,40,397,8.7,Evening,Tue,0,0,152,Daylight,Medium
+2023-01-08 10:00:00,353,31.2337,80.7741,Sunny,5.8,99,52,City,Good,3,80,235,7.8,Afternoon,Fri,1,8,401,Daylight,Low
+2023-01-08 11:00:00,148,25.5958,94.5406,Rainy,7.3,73,62,Rural,Poor,6,100,14,7.8,Morning,Thu,0,6,800,Daylight,High
+2023-01-08 12:00:00,984,14.7721,96.131,Rainy,17.3,77,54,City,Poor,1,60,33,8.8,Evening,Sat,0,9,712,Street Light,Medium
+2023-01-08 13:00:00,770,34.087,92.4245,Snowy,45.0,49,25,Highway,Fair,6,60,68,0.8,Evening,Mon,0,5,1905,Dark,Medium
+2023-01-08 14:00:00,429,17.0284,73.3245,Foggy,22.5,84,104,City,Fair,6,80,107,3.6,Morning,Sat,0,8,1889,Street Light,Medium
+2023-01-08 15:00:00,365,30.773,74.3863,Sunny,32.8,36,230,Highway,Fair,2,40,90,1.3,Night,Sun,0,1,846,Dark,Medium
+2023-01-08 16:00:00,946,9.1129,82.6756,Snowy,33.3,60,133,City,Poor,6,40,124,6.1,Evening,Tue,0,3,640,Street Light,Medium
+2023-01-08 17:00:00,690,33.4158,88.5787,Snowy,23.3,72,245,Residential,Good,2,40,253,6.6,Afternoon,Thu,0,5,784,Street Light,Medium
+2023-01-08 18:00:00,121,22.9728,86.3916,Rainy,43.1,32,290,Residential,Fair,2,40,326,0.5,Evening,Sat,0,2,610,Dark,High
+2023-01-08 19:00:00,434,30.3781,85.3446,Sunny,44.0,80,163,Rural,Fair,1,100,341,8.1,Night,Mon,1,0,1946,Dark,Low
+2023-01-08 20:00:00,744,33.5209,94.7079,Rainy,15.8,94,184,Rural,Fair,3,60,363,6.6,Evening,Tue,0,0,1868,Street Light,Medium
+2023-01-08 21:00:00,960,8.9074,82.4377,Cloudy,34.9,92,156,Rural,Fair,3,100,195,3.1,Evening,Mon,0,5,1409,Street Light,Low
+2023-01-08 22:00:00,193,15.4435,73.9141,Sunny,11.0,71,160,City,Fair,3,60,394,1.6,Night,Tue,0,0,716,Dark,Low
+2023-01-08 23:00:00,415,12.1836,70.4843,Rainy,30.0,71,143,Residential,Fair,3,40,50,3.1,Evening,Tue,1,8,410,Dark,Medium
+2023-01-09 00:00:00,488,29.6525,89.4483,Cloudy,7.2,35,84,Rural,Good,4,40,380,3.3,Evening,Wed,1,6,813,Street Light,Low
+2023-01-09 01:00:00,562,15.2756,76.4201,Cloudy,17.1,78,236,City,Poor,2,60,259,3.0,Morning,Mon,0,7,1746,Daylight,Medium
+2023-01-09 02:00:00,208,10.2692,81.4285,Foggy,21.9,97,76,Residential,Fair,6,80,304,0.7,Afternoon,Tue,0,3,1972,Street Light,Medium
+2023-01-09 03:00:00,987,21.2101,90.1104,Rainy,9.3,85,145,Rural,Good,6,40,296,9.7,Afternoon,Thu,0,3,1997,Daylight,Low
+2023-01-09 04:00:00,376,14.3048,68.808,Foggy,13.3,89,117,Highway,Good,3,40,372,6.4,Night,Wed,1,8,1880,Street Light,Medium
+2023-01-09 05:00:00,669,22.6734,68.7433,Rainy,32.3,32,250,Residential,Fair,6,40,147,3.1,Morning,Thu,0,2,1487,Dark,Medium
+2023-01-09 06:00:00,125,24.3365,84.55,Cloudy,36.8,60,57,Highway,Fair,1,100,50,5.1,Evening,Wed,0,7,567,Street Light,Low
+2023-01-09 07:00:00,351,36.8327,81.21,Sunny,29.1,47,111,City,Fair,6,60,125,2.9,Afternoon,Wed,0,6,1879,Daylight,Medium
+2023-01-09 08:00:00,118,17.6442,77.1654,Cloudy,29.1,91,271,Highway,Good,3,60,168,6.3,Evening,Wed,0,8,590,Street Light,Medium
+2023-01-09 09:00:00,857,21.256,71.2717,Sunny,8.5,84,38,Highway,Fair,3,60,95,9.8,Night,Sat,1,4,113,Dark,Low
+2023-01-09 10:00:00,830,18.5409,77.7298,Snowy,25.5,33,227,Rural,Good,1,80,318,3.2,Night,Mon,0,6,456,Street Light,Medium
+2023-01-09 11:00:00,780,36.41,76.2789,Cloudy,26.7,52,149,Residential,Poor,6,100,206,2.0,Morning,Fri,0,1,1617,Street Light,Medium
+2023-01-09 12:00:00,658,30.4594,82.2591,Snowy,18.6,73,186,Rural,Fair,1,40,211,1.5,Evening,Mon,1,1,1025,Street Light,High
+2023-01-09 13:00:00,508,21.5515,82.154,Cloudy,35.3,75,215,Highway,Poor,3,60,376,9.0,Morning,Tue,0,2,1571,Daylight,Medium
+2023-01-09 14:00:00,292,19.1021,91.5212,Cloudy,43.4,95,196,City,Poor,4,100,130,9.9,Morning,Sat,0,0,1561,Street Light,Medium
+2023-01-09 15:00:00,170,17.6603,81.6293,Rainy,15.3,69,203,Residential,Poor,3,80,305,1.5,Evening,Sat,0,5,1149,Street Light,High
+2023-01-09 16:00:00,590,26.0638,72.7786,Snowy,21.8,76,177,Rural,Fair,1,60,183,9.4,Evening,Tue,0,6,1302,Dark,Medium
+2023-01-09 17:00:00,958,9.4096,73.9734,Foggy,28.2,39,117,Rural,Poor,6,40,347,6.9,Afternoon,Mon,0,2,1121,Daylight,Medium
+2023-01-09 18:00:00,852,11.352,83.7917,Rainy,6.1,69,162,Residential,Fair,4,60,127,3.0,Night,Tue,0,2,484,Dark,Low
+2023-01-09 19:00:00,922,26.6577,74.4266,Sunny,17.5,38,193,Highway,Poor,4,80,326,8.4,Evening,Sun,1,6,245,Street Light,Medium
+2023-01-09 20:00:00,702,15.7528,75.1184,Sunny,21.8,69,222,City,Poor,2,100,381,3.2,Night,Fri,0,7,1032,Dark,High
+2023-01-09 21:00:00,392,8.6282,76.324,Foggy,22.3,61,224,Rural,Poor,4,40,309,9.0,Afternoon,Fri,0,3,713,Daylight,High
+2023-01-09 22:00:00,756,12.3164,82.9766,Snowy,29.4,83,61,City,Good,2,40,325,1.9,Night,Sat,0,0,1582,Daylight,Medium
+2023-01-09 23:00:00,858,22.791,72.8853,Rainy,18.1,46,171,City,Poor,4,40,96,1.3,Evening,Thu,0,1,604,Daylight,High
+2023-01-10 00:00:00,791,26.6075,68.9867,Snowy,16.4,62,294,Highway,Fair,3,60,389,9.8,Evening,Thu,0,3,1036,Dark,Medium
+2023-01-10 01:00:00,807,34.7432,86.0644,Sunny,43.1,67,44,Highway,Poor,2,40,209,7.0,Evening,Wed,0,5,344,Daylight,Medium
+2023-01-10 02:00:00,862,14.7064,69.6224,Foggy,30.8,57,267,Rural,Good,6,60,35,3.9,Afternoon,Thu,0,2,1789,Street Light,Medium
+2023-01-10 03:00:00,567,23.6727,76.4053,Snowy,17.2,54,33,City,Good,1,40,113,7.9,Evening,Mon,0,6,1245,Street Light,Medium
+2023-01-10 04:00:00,233,9.1593,91.3925,Foggy,23.8,49,238,Highway,Poor,2,40,187,1.4,Night,Thu,0,8,892,Daylight,High
+2023-01-10 05:00:00,133,20.8261,84.9887,Snowy,28.7,58,42,Rural,Good,6,100,349,1.8,Afternoon,Sat,0,1,1476,Dark,Medium
+2023-01-10 06:00:00,878,33.9551,70.5535,Foggy,16.0,77,65,City,Good,6,80,352,1.2,Night,Fri,0,0,1028,Daylight,Medium
+2023-01-10 07:00:00,700,20.3488,79.2104,Sunny,27.6,66,223,Residential,Fair,3,60,63,9.9,Afternoon,Wed,0,2,554,Daylight,Low
+2023-01-10 08:00:00,567,27.1296,69.6479,Cloudy,9.2,53,199,Residential,Good,3,100,15,1.4,Night,Mon,0,7,214,Street Light,High
+2023-01-10 09:00:00,820,20.6583,71.7227,Rainy,33.3,46,165,Rural,Good,6,100,241,4.0,Afternoon,Mon,0,0,110,Dark,Medium
+2023-01-10 10:00:00,254,29.6706,80.336,Cloudy,44.6,37,181,Highway,Good,2,80,390,4.1,Night,Sat,1,2,1817,Street Light,Low
+2023-01-10 11:00:00,509,33.6513,80.5487,Snowy,24.1,70,199,Highway,Fair,1,100,169,3.5,Morning,Mon,1,1,561,Street Light,Medium
+2023-01-10 12:00:00,714,22.8359,70.3463,Foggy,14.4,54,141,Rural,Good,1,80,329,9.7,Afternoon,Fri,0,4,860,Daylight,Low
+2023-01-10 13:00:00,684,17.4889,83.7596,Rainy,28.9,82,283,Highway,Poor,4,100,305,6.9,Evening,Sun,0,0,991,Dark,High
+2023-01-10 14:00:00,570,24.8104,88.7908,Snowy,39.8,43,159,Residential,Poor,2,60,39,6.7,Morning,Thu,0,1,1685,Daylight,Medium
+2023-01-10 15:00:00,201,31.9401,84.3479,Rainy,28.6,77,139,City,Fair,3,60,155,4.1,Afternoon,Wed,0,6,1020,Street Light,Medium
+2023-01-10 16:00:00,466,28.2332,71.2052,Cloudy,41.4,99,276,Rural,Fair,3,60,232,7.6,Afternoon,Fri,1,4,1834,Dark,Low
+2023-01-10 17:00:00,971,21.3292,85.6349,Snowy,35.4,96,74,Rural,Good,4,40,120,3.5,Afternoon,Sat,0,5,856,Dark,Medium
+2023-01-10 18:00:00,720,23.2704,95.2168,Sunny,19.5,59,58,Rural,Fair,6,60,358,4.2,Morning,Thu,0,6,1584,Street Light,Low
+2023-01-10 19:00:00,922,34.4248,78.519,Rainy,36.5,37,123,City,Good,1,80,232,3.1,Night,Thu,0,1,692,Street Light,Low
+2023-01-10 20:00:00,752,27.8695,70.1281,Sunny,32.6,33,30,City,Poor,2,60,304,9.3,Morning,Sun,0,0,1827,Dark,Low
+2023-01-10 21:00:00,424,34.115,92.8813,Snowy,40.4,98,212,Rural,Poor,6,40,306,2.5,Morning,Thu,0,4,849,Dark,High
+2023-01-10 22:00:00,875,28.3638,77.4966,Cloudy,21.7,74,290,City,Fair,2,40,378,9.4,Morning,Sun,0,3,1858,Daylight,Low
+2023-01-10 23:00:00,338,13.6904,79.0664,Cloudy,26.5,75,84,Residential,Fair,1,40,18,7.5,Night,Thu,0,6,500,Street Light,Low
+2023-01-11 00:00:00,361,14.5288,77.61,Rainy,22.1,98,35,City,Fair,2,100,17,7.3,Evening,Thu,0,9,883,Daylight,Medium
+2023-01-11 01:00:00,347,24.641,83.567,Foggy,29.6,74,116,Residential,Poor,1,80,341,4.2,Night,Wed,0,4,1296,Street Light,Medium
+2023-01-11 02:00:00,310,15.5895,95.6344,Snowy,7.2,62,196,Residential,Good,4,60,185,1.4,Evening,Fri,0,4,594,Dark,High
+2023-01-11 03:00:00,619,20.3465,73.1473,Rainy,11.4,75,196,City,Good,1,100,196,6.6,Night,Fri,0,2,1805,Daylight,Medium
+2023-01-11 04:00:00,808,14.5179,92.5991,Snowy,34.5,66,252,City,Fair,3,80,313,3.4,Evening,Fri,0,4,1644,Daylight,Medium
+2023-01-11 05:00:00,133,11.4843,84.9753,Sunny,28.0,45,210,Rural,Fair,4,100,25,7.3,Morning,Thu,0,2,936,Daylight,Medium
+2023-01-11 06:00:00,551,10.8363,79.0571,Snowy,14.7,87,182,Residential,Fair,1,60,376,8.5,Afternoon,Thu,0,6,1182,Dark,Medium
+2023-01-11 07:00:00,830,16.4862,86.0372,Snowy,39.4,76,24,Residential,Good,3,100,181,2.8,Evening,Mon,0,0,1625,Street Light,Medium
+2023-01-11 08:00:00,945,10.6273,77.416,Snowy,38.5,54,90,Residential,Poor,1,100,224,1.7,Evening,Tue,0,7,1707,Daylight,High
+2023-01-11 09:00:00,523,30.1464,83.5799,Snowy,9.5,43,167,Residential,Poor,4,100,265,9.0,Morning,Fri,0,0,1973,Street Light,Medium
+2023-01-11 10:00:00,324,33.528,82.4187,Cloudy,25.9,42,173,Residential,Poor,4,80,183,6.7,Afternoon,Mon,0,0,558,Daylight,Low
+2023-01-11 11:00:00,273,36.8007,90.1396,Snowy,6.5,83,279,City,Fair,2,80,136,9.7,Evening,Mon,0,8,795,Dark,Medium
+2023-01-11 12:00:00,286,19.561,69.8862,Sunny,40.3,95,69,Highway,Good,3,60,252,2.8,Morning,Wed,0,1,1534,Street Light,Low
+2023-01-11 13:00:00,682,26.7221,75.8454,Sunny,23.8,48,88,City,Fair,2,40,365,2.3,Morning,Mon,0,2,677,Daylight,Low
+2023-01-11 14:00:00,632,12.0668,94.7961,Rainy,32.7,71,186,City,Poor,6,80,97,4.9,Night,Fri,0,2,1539,Street Light,High
+2023-01-11 15:00:00,220,21.4778,91.7457,Cloudy,17.8,86,103,City,Good,4,40,302,6.2,Morning,Thu,0,2,659,Dark,Low
+2023-01-11 16:00:00,820,13.8297,90.2639,Snowy,31.2,58,92,Highway,Good,3,40,378,8.0,Morning,Fri,0,6,1017,Street Light,Medium
+2023-01-11 17:00:00,605,26.6882,75.1518,Sunny,33.3,56,218,Residential,Good,2,100,353,8.4,Evening,Sun,0,5,1487,Street Light,Medium
+2023-01-11 18:00:00,846,30.264,88.8936,Sunny,40.1,36,63,Residential,Good,3,40,249,1.3,Evening,Wed,0,3,379,Daylight,Low
+2023-01-11 19:00:00,804,8.062,85.3334,Sunny,10.0,53,57,Residential,Poor,1,40,239,2.8,Evening,Sat,0,2,447,Street Light,Medium
+2023-01-11 20:00:00,461,17.955,81.3612,Rainy,28.7,53,136,Highway,Fair,4,100,374,5.0,Afternoon,Sun,0,9,236,Dark,Medium
+2023-01-11 21:00:00,646,29.7878,89.2833,Snowy,43.0,42,84,Residential,Good,4,60,322,4.7,Evening,Wed,0,7,1856,Street Light,Medium
+2023-01-11 22:00:00,547,27.2416,84.7576,Foggy,32.9,33,150,City,Poor,2,40,131,6.2,Night,Thu,0,7,658,Daylight,Medium
+2023-01-11 23:00:00,799,33.7785,79.3305,Sunny,11.0,53,105,Residential,Poor,4,100,103,3.4,Morning,Fri,0,3,974,Dark,Medium
+2023-01-12 00:00:00,900,26.3208,85.8293,Snowy,12.9,68,57,City,Fair,4,100,363,8.2,Evening,Tue,0,9,947,Dark,Medium
+2023-01-12 01:00:00,316,16.8305,79.6121,Snowy,23.4,86,134,Rural,Poor,2,80,288,3.1,Morning,Fri,0,6,797,Street Light,Medium
+2023-01-12 02:00:00,975,20.384,91.0821,Snowy,39.0,88,285,Residential,Poor,6,100,293,7.8,Night,Sat,0,2,1704,Daylight,High
+2023-01-12 03:00:00,769,28.8804,74.2324,Cloudy,34.3,33,96,Highway,Poor,2,100,338,5.1,Night,Mon,0,6,1514,Dark,Medium
+2023-01-12 04:00:00,583,31.6294,69.1141,Cloudy,43.7,44,255,Highway,Fair,6,60,300,8.4,Afternoon,Mon,0,9,1624,Dark,Medium
+2023-01-12 05:00:00,936,16.422,84.6359,Snowy,35.9,57,188,Rural,Poor,1,100,117,3.2,Night,Wed,0,8,641,Street Light,High
+2023-01-12 06:00:00,609,26.8296,88.5014,Snowy,13.5,41,194,City,Good,3,80,344,0.9,Afternoon,Fri,1,2,1062,Dark,High
+2023-01-12 07:00:00,391,13.0238,95.8932,Snowy,37.3,36,202,Rural,Fair,3,40,254,9.5,Evening,Sat,0,3,1337,Daylight,Medium
+2023-01-12 08:00:00,594,10.1162,96.9909,Foggy,40.8,79,185,Residential,Good,1,80,156,7.7,Night,Fri,0,5,1639,Daylight,Medium
+2023-01-12 09:00:00,790,22.6431,70.7042,Sunny,23.4,53,229,Residential,Poor,1,60,315,3.0,Evening,Mon,0,2,874,Street Light,Medium
+2023-01-12 10:00:00,144,14.8836,75.8748,Foggy,44.6,35,132,Rural,Fair,4,60,397,9.6,Morning,Wed,0,1,1572,Dark,Low
+2023-01-12 11:00:00,606,14.3975,87.6612,Rainy,30.1,53,180,City,Fair,1,60,311,2.6,Morning,Thu,0,9,1222,Dark,Medium
+2023-01-12 12:00:00,436,30.8533,69.5823,Snowy,18.8,74,249,Residential,Poor,4,100,324,4.2,Morning,Sun,0,3,872,Street Light,High
+2023-01-12 13:00:00,689,12.2802,68.5949,Cloudy,8.1,95,206,City,Fair,2,40,77,3.3,Morning,Fri,0,9,1859,Dark,Medium
+2023-01-12 14:00:00,945,15.1062,96.7806,Foggy,13.5,88,61,City,Good,1,100,183,8.5,Evening,Thu,1,1,613,Daylight,Medium
+2023-01-12 15:00:00,240,17.7121,81.8043,Rainy,22.7,94,128,City,Fair,6,100,95,6.8,Night,Sun,0,8,704,Daylight,Medium
+2023-01-12 16:00:00,660,21.9599,71.9339,Rainy,25.1,40,297,City,Fair,6,40,152,6.0,Afternoon,Thu,0,2,137,Daylight,Medium
+2023-01-12 17:00:00,975,11.4632,78.9753,Sunny,11.5,97,126,Rural,Good,3,60,286,7.9,Night,Sat,0,1,422,Dark,Low
+2023-01-12 18:00:00,801,35.3076,75.7023,Cloudy,5.5,76,170,Highway,Good,4,40,54,8.7,Night,Mon,0,1,1768,Dark,Low
+2023-01-12 19:00:00,290,30.2924,78.551,Cloudy,19.9,78,32,City,Good,6,100,118,7.0,Evening,Thu,0,6,782,Street Light,Low
+2023-01-12 20:00:00,158,26.0408,75.2778,Foggy,25.1,44,48,Rural,Good,4,60,173,6.7,Afternoon,Sat,0,4,1472,Street Light,Low
+2023-01-12 21:00:00,340,11.3006,72.5366,Cloudy,23.1,58,121,Rural,Good,3,80,334,8.0,Morning,Mon,0,7,1270,Dark,Low
+2023-01-12 22:00:00,283,32.673,84.6608,Foggy,32.3,58,53,Highway,Poor,2,100,281,5.0,Night,Wed,0,1,731,Dark,Medium
+2023-01-12 23:00:00,984,14.5434,92.5925,Foggy,34.4,85,58,Rural,Fair,1,80,275,5.6,Afternoon,Sat,0,8,1400,Street Light,Medium
+2023-01-13 00:00:00,700,8.5904,72.9794,Sunny,8.1,82,212,Highway,Fair,2,40,380,8.9,Afternoon,Wed,1,9,1454,Street Light,Medium
+2023-01-13 01:00:00,226,23.1163,84.8463,Sunny,37.5,66,292,Rural,Fair,3,60,127,4.0,Night,Wed,1,4,750,Dark,Low
+2023-01-13 02:00:00,750,10.0933,92.0474,Rainy,26.2,67,80,Highway,Fair,2,80,292,4.8,Evening,Mon,0,7,205,Dark,Medium
+2023-01-13 03:00:00,226,32.846,86.6347,Foggy,28.1,73,158,Highway,Poor,3,100,390,5.1,Afternoon,Thu,0,6,669,Dark,High
+2023-01-13 04:00:00,326,34.7965,77.7702,Foggy,35.9,40,92,Residential,Fair,1,100,65,7.6,Night,Mon,0,1,1693,Street Light,Medium
+2023-01-13 05:00:00,436,30.6951,73.7194,Rainy,37.2,42,109,Rural,Good,4,60,326,8.4,Afternoon,Wed,0,7,1301,Dark,Medium
+2023-01-13 06:00:00,705,10.6461,95.0011,Sunny,32.8,68,59,Highway,Poor,3,40,48,5.2,Morning,Mon,0,1,475,Dark,Low
+2023-01-13 07:00:00,714,22.9227,85.3226,Rainy,12.4,90,103,Rural,Good,2,100,266,6.1,Evening,Sat,0,6,1645,Dark,Medium
+2023-01-13 08:00:00,698,13.0442,79.4452,Sunny,28.1,99,56,Residential,Good,6,80,351,7.9,Afternoon,Sun,0,7,1033,Daylight,Low
+2023-01-13 09:00:00,284,23.1406,71.1142,Rainy,40.6,47,223,Residential,Good,1,100,284,8.0,Evening,Mon,0,7,194,Street Light,High
+2023-01-13 10:00:00,355,18.9058,88.194,Rainy,19.3,92,213,Highway,Poor,4,80,280,5.7,Evening,Mon,0,1,1776,Street Light,High
+2023-01-13 11:00:00,375,16.9134,90.7516,Rainy,21.6,50,157,Highway,Good,1,40,206,5.3,Evening,Sat,0,2,604,Dark,Low
+2023-01-13 12:00:00,478,12.2624,95.4717,Rainy,8.4,79,240,City,Poor,6,100,366,9.2,Afternoon,Tue,0,3,1612,Street Light,High
+2023-01-13 13:00:00,878,30.8927,83.4769,Cloudy,19.1,58,230,Highway,Poor,6,60,144,0.9,Evening,Sun,1,5,1576,Dark,High
+2023-01-13 14:00:00,256,14.546,75.7185,Cloudy,43.3,79,179,Residential,Fair,2,100,49,8.0,Night,Fri,0,1,1476,Dark,Low
+2023-01-13 15:00:00,303,17.1389,69.2163,Rainy,16.9,39,46,City,Good,2,40,378,6.6,Night,Fri,1,0,1865,Dark,Low
+2023-01-13 16:00:00,954,33.9256,72.8498,Snowy,21.5,61,26,City,Fair,2,40,198,0.5,Morning,Fri,0,5,1807,Street Light,Medium
+2023-01-13 17:00:00,874,9.7697,86.72,Rainy,25.0,38,38,Highway,Fair,6,80,173,4.4,Evening,Mon,0,3,1892,Daylight,Low
+2023-01-13 18:00:00,715,28.7253,73.4282,Snowy,23.6,89,213,Highway,Fair,2,40,279,10.0,Evening,Tue,0,3,1256,Daylight,Medium
+2023-01-13 19:00:00,125,31.7098,83.1892,Cloudy,40.8,97,86,City,Poor,4,80,380,5.0,Afternoon,Thu,0,4,1306,Daylight,Low
+2023-01-13 20:00:00,903,29.3414,91.0043,Rainy,10.5,72,252,Highway,Good,3,80,62,2.2,Afternoon,Sun,0,2,1332,Dark,High
+2023-01-13 21:00:00,778,26.8113,81.3307,Cloudy,31.0,91,274,Rural,Poor,1,100,167,4.3,Evening,Fri,0,0,355,Daylight,Medium
+2023-01-13 22:00:00,989,35.3538,71.9743,Snowy,30.9,70,239,Residential,Fair,4,40,10,9.0,Night,Mon,0,1,773,Dark,Medium
+2023-01-13 23:00:00,910,10.8562,70.5895,Foggy,27.9,91,194,Residential,Good,6,100,82,7.5,Afternoon,Thu,0,5,697,Street Light,High
+2023-01-14 00:00:00,756,18.3268,74.3332,Foggy,5.9,37,272,Rural,Poor,3,100,385,2.2,Night,Mon,0,8,232,Daylight,High
+2023-01-14 01:00:00,775,25.1926,87.3275,Rainy,9.0,43,198,Highway,Poor,3,100,243,2.7,Night,Wed,0,1,1515,Dark,High
+2023-01-14 02:00:00,657,22.3259,83.7239,Sunny,44.9,76,276,City,Fair,6,100,28,3.8,Morning,Wed,0,5,1838,Dark,Medium
+2023-01-14 03:00:00,557,19.4482,93.6739,Rainy,21.5,53,110,City,Fair,3,40,130,6.4,Morning,Sun,1,8,1139,Daylight,Medium
+2023-01-14 04:00:00,481,12.954,85.9893,Sunny,25.0,69,44,Rural,Poor,3,80,197,8.3,Night,Mon,0,7,1336,Daylight,Medium
+2023-01-14 05:00:00,104,35.6287,89.2635,Rainy,23.6,94,159,City,Poor,3,40,270,4.6,Evening,Thu,0,4,289,Street Light,Medium
+2023-01-14 06:00:00,307,16.3735,88.7387,Foggy,11.8,85,85,City,Fair,2,60,276,3.0,Evening,Sun,0,0,1399,Daylight,Low
+2023-01-14 07:00:00,353,28.0392,94.105,Cloudy,23.1,78,21,Residential,Fair,3,80,282,7.7,Night,Sat,0,2,1214,Daylight,Low
+2023-01-14 08:00:00,367,30.2862,93.6963,Sunny,25.9,56,97,Rural,Fair,2,40,242,8.3,Morning,Tue,0,8,1676,Dark,Low
+2023-01-14 09:00:00,620,26.4645,71.5569,Snowy,28.0,49,163,City,Good,2,100,157,7.8,Night,Wed,0,8,999,Dark,Medium
+2023-01-14 10:00:00,827,14.1864,83.6117,Rainy,38.2,76,30,Highway,Good,4,100,178,4.0,Night,Tue,0,3,1549,Dark,Medium
+2023-01-14 11:00:00,277,17.3138,93.4867,Cloudy,23.5,52,123,Rural,Fair,2,100,225,2.6,Afternoon,Sun,0,5,370,Street Light,Medium
+2023-01-14 12:00:00,171,11.4525,84.2824,Cloudy,7.7,75,168,Highway,Fair,1,80,175,2.7,Morning,Thu,0,0,1135,Dark,Low
+2023-01-14 13:00:00,806,16.6594,83.2379,Rainy,33.1,38,273,Highway,Good,6,60,375,9.7,Afternoon,Thu,0,8,1764,Daylight,Medium
+2023-01-14 14:00:00,350,12.2669,68.5717,Cloudy,39.9,96,222,Rural,Fair,2,100,71,8.7,Evening,Wed,0,9,1647,Dark,Medium
+2023-01-14 15:00:00,663,12.1997,90.7977,Sunny,40.9,92,219,City,Fair,4,40,320,0.9,Afternoon,Tue,0,5,1537,Street Light,Medium
+2023-01-14 16:00:00,247,23.8976,88.1903,Rainy,39.7,52,274,Residential,Good,1,40,93,6.3,Morning,Wed,1,4,1808,Street Light,Medium
+2023-01-14 17:00:00,166,29.4221,87.5154,Snowy,6.8,57,29,Highway,Poor,1,60,71,3.8,Evening,Sun,0,0,1354,Street Light,Medium
+2023-01-14 18:00:00,961,19.6558,87.3629,Sunny,40.1,42,210,Rural,Fair,3,60,298,4.7,Morning,Thu,0,7,766,Street Light,Medium
+2023-01-14 19:00:00,750,28.4708,74.2019,Snowy,12.8,93,63,Rural,Poor,1,100,213,8.4,Morning,Tue,0,4,833,Daylight,Medium
+2023-01-14 20:00:00,956,26.7748,86.7423,Sunny,33.1,84,137,City,Poor,1,80,387,10.0,Evening,Tue,1,7,965,Daylight,Medium
+2023-01-14 21:00:00,508,16.0753,76.6846,Cloudy,14.7,68,192,Residential,Poor,1,60,353,5.3,Night,Thu,0,5,283,Daylight,Medium
+2023-01-14 22:00:00,571,9.9,71.4283,Sunny,13.1,91,155,Rural,Fair,3,40,270,6.2,Evening,Sun,0,1,1884,Street Light,Low
+2023-01-14 23:00:00,381,27.1139,93.7964,Cloudy,26.9,82,75,Rural,Fair,4,60,139,9.0,Afternoon,Thu,0,9,1452,Dark,Low
+2023-01-15 00:00:00,179,29.2899,73.0987,Sunny,20.9,65,279,Residential,Good,6,40,290,2.8,Morning,Mon,0,0,252,Dark,Medium
+2023-01-15 01:00:00,628,34.1968,85.3237,Rainy,7.3,99,137,Residential,Good,2,60,171,2.7,Night,Fri,0,5,1199,Dark,Medium
+2023-01-15 02:00:00,677,32.8742,94.9589,Rainy,24.5,65,241,Rural,Good,1,100,41,3.6,Night,Mon,0,6,1059,Street Light,High
+2023-01-15 03:00:00,654,25.1466,82.9088,Snowy,7.1,48,85,City,Fair,6,100,75,4.4,Evening,Sun,0,5,388,Daylight,Medium
+2023-01-15 04:00:00,981,27.4791,69.9471,Sunny,15.5,94,38,Highway,Poor,2,60,338,0.8,Afternoon,Wed,0,1,450,Street Light,Medium
+2023-01-15 05:00:00,127,28.0815,68.6899,Snowy,35.5,86,227,City,Good,3,60,122,4.8,Afternoon,Thu,0,3,632,Street Light,Medium
+2023-01-15 06:00:00,311,30.9238,75.2287,Foggy,9.4,98,293,Rural,Fair,2,40,386,0.9,Afternoon,Tue,0,4,1367,Dark,High
+2023-01-15 07:00:00,693,22.0418,86.3271,Rainy,6.7,43,204,Residential,Good,3,40,153,7.9,Night,Sun,0,1,196,Daylight,Medium
+2023-01-15 08:00:00,536,31.0563,71.2163,Cloudy,10.7,96,121,Residential,Good,1,60,300,8.8,Night,Mon,0,0,1005,Street Light,Low
+2023-01-15 09:00:00,928,33.6832,91.3559,Cloudy,12.6,55,84,Residential,Good,3,40,306,1.8,Evening,Sun,0,2,1651,Street Light,Low
+2023-01-15 10:00:00,474,28.8781,75.4788,Foggy,7.1,62,273,City,Fair,6,60,173,0.6,Afternoon,Sun,0,4,348,Daylight,High
+2023-01-15 11:00:00,766,34.8171,86.4923,Foggy,35.2,39,280,Rural,Fair,6,60,218,3.9,Morning,Thu,0,0,824,Street Light,Medium
+2023-01-15 12:00:00,862,32.3345,71.9319,Sunny,23.5,43,258,City,Poor,4,60,210,1.9,Afternoon,Thu,0,7,898,Street Light,High
+2023-01-15 13:00:00,437,13.1356,70.8352,Snowy,18.7,93,22,Rural,Good,4,40,166,7.0,Night,Fri,0,2,1352,Daylight,Low
+2023-01-15 14:00:00,635,10.1459,80.3751,Foggy,34.9,55,64,Residential,Poor,3,60,358,4.2,Morning,Wed,0,8,1099,Street Light,Medium
+2023-01-15 15:00:00,553,23.9002,89.3948,Rainy,37.8,60,239,City,Fair,1,60,122,7.3,Morning,Thu,0,1,233,Dark,Medium
+2023-01-15 16:00:00,171,34.7844,68.4292,Sunny,39.8,76,205,City,Good,2,40,87,4.2,Morning,Mon,0,0,1220,Street Light,Low
+2023-01-15 17:00:00,382,18.3017,76.0111,Rainy,33.8,48,228,Rural,Good,2,80,48,6.9,Morning,Fri,0,3,1153,Daylight,Medium
+2023-01-15 18:00:00,874,15.1915,82.75,Sunny,26.0,90,242,Rural,Fair,2,100,189,5.0,Evening,Tue,0,8,1389,Daylight,Medium
+2023-01-15 19:00:00,776,29.1321,85.1442,Snowy,11.9,88,262,City,Good,6,80,340,3.0,Morning,Mon,0,9,740,Street Light,Medium
+2023-01-15 20:00:00,301,20.5532,93.7925,Snowy,23.7,97,186,Residential,Poor,1,60,116,2.2,Night,Thu,0,3,834,Daylight,High
+2023-01-15 21:00:00,577,12.0934,74.0216,Snowy,32.2,96,97,City,Fair,6,40,109,0.5,Evening,Fri,1,8,1466,Dark,Medium
+2023-01-15 22:00:00,679,9.807,96.0295,Foggy,31.8,59,237,City,Poor,1,60,128,4.5,Morning,Wed,0,0,444,Street Light,High
+2023-01-15 23:00:00,248,16.4099,94.1902,Foggy,44.5,59,243,City,Fair,1,60,310,3.8,Morning,Sun,1,9,1185,Daylight,Medium
+2023-01-16 00:00:00,742,22.5317,68.7273,Snowy,37.3,42,152,City,Fair,4,60,97,1.5,Night,Sat,0,2,559,Daylight,Medium
+2023-01-16 01:00:00,450,27.7318,68.5197,Rainy,26.9,68,271,Residential,Poor,4,60,47,6.3,Night,Thu,0,3,874,Dark,High
+2023-01-16 02:00:00,817,13.9748,81.0867,Sunny,37.3,61,211,Highway,Good,3,80,190,1.4,Night,Sat,0,3,480,Street Light,Medium
+2023-01-16 03:00:00,815,20.6006,86.7418,Snowy,42.5,38,68,Residential,Good,3,40,182,1.3,Afternoon,Sun,0,3,819,Street Light,Medium
+2023-01-16 04:00:00,223,9.5505,83.1163,Snowy,13.7,33,129,City,Fair,3,80,378,3.6,Afternoon,Fri,0,4,1666,Daylight,Low
+2023-01-16 05:00:00,905,22.7792,79.7375,Rainy,33.5,70,51,Highway,Good,6,80,398,7.4,Afternoon,Fri,0,2,770,Dark,Low
+2023-01-16 06:00:00,858,12.0327,94.9772,Foggy,23.7,97,66,City,Fair,3,80,283,2.4,Afternoon,Mon,0,2,1167,Street Light,Medium
+2023-01-16 07:00:00,907,24.6228,96.1621,Foggy,13.0,96,77,City,Poor,4,60,160,10.0,Evening,Wed,0,7,139,Dark,Medium
+2023-01-16 08:00:00,519,31.3116,90.3444,Foggy,5.4,72,258,Rural,Good,3,40,328,9.9,Evening,Sun,0,1,107,Daylight,Medium
+2023-01-16 09:00:00,193,30.0253,72.9911,Cloudy,30.4,35,158,Residential,Poor,3,40,91,5.5,Morning,Sat,0,1,466,Street Light,Low
+2023-01-16 10:00:00,353,32.8978,84.2662,Rainy,31.3,78,253,City,Fair,4,100,239,6.7,Evening,Thu,0,0,702,Daylight,Medium
+2023-01-16 11:00:00,738,29.0158,96.8315,Cloudy,25.1,54,247,Rural,Fair,4,100,218,9.1,Morning,Mon,0,1,1389,Daylight,Medium
+2023-01-16 12:00:00,112,26.1837,72.03,Rainy,35.4,53,182,Highway,Fair,4,40,84,8.7,Afternoon,Fri,0,6,1942,Street Light,Medium
+2023-01-16 13:00:00,766,25.365,83.9554,Foggy,39.5,91,299,City,Fair,3,80,297,3.4,Morning,Sat,0,4,329,Daylight,Medium
+2023-01-16 14:00:00,139,18.8433,75.5413,Rainy,42.1,96,40,Residential,Poor,1,80,120,4.6,Night,Sun,0,6,1727,Daylight,Medium
+2023-01-16 15:00:00,381,17.0185,78.9886,Cloudy,21.3,62,190,Residential,Fair,2,80,178,6.9,Night,Wed,0,4,1627,Street Light,Low
+2023-01-16 16:00:00,842,20.9639,85.2794,Foggy,23.0,98,181,Highway,Good,3,60,231,7.5,Evening,Fri,0,8,112,Dark,Medium
+2023-01-16 17:00:00,482,23.1989,85.2995,Foggy,36.9,83,245,Rural,Poor,3,40,208,8.3,Morning,Thu,0,8,1480,Daylight,High
+2023-01-16 18:00:00,886,12.3234,76.6037,Snowy,17.9,73,201,Highway,Fair,3,100,62,9.3,Afternoon,Fri,0,4,1253,Dark,Medium
+2023-01-16 19:00:00,174,26.6579,90.1025,Sunny,8.4,48,221,Residential,Fair,4,40,123,8.6,Evening,Mon,1,3,1944,Dark,Low
+2023-01-16 20:00:00,939,22.3586,87.8186,Rainy,36.2,35,225,Rural,Good,1,40,334,8.7,Afternoon,Wed,0,7,1104,Daylight,Medium
+2023-01-16 21:00:00,829,22.4089,92.1609,Sunny,13.7,76,284,City,Good,4,100,89,9.0,Night,Sun,0,0,1430,Daylight,Medium
+2023-01-16 22:00:00,694,25.3129,90.2561,Foggy,10.5,57,218,Highway,Good,6,80,341,2.2,Evening,Thu,1,4,559,Daylight,High
+2023-01-16 23:00:00,483,8.0488,83.6182,Cloudy,42.7,38,71,Rural,Poor,6,80,119,1.2,Evening,Sat,0,4,501,Dark,Medium
+2023-01-17 00:00:00,338,13.6035,85.08,Rainy,40.9,53,108,Rural,Poor,2,60,347,8.8,Evening,Fri,1,9,303,Street Light,Medium
+2023-01-17 01:00:00,248,13.0911,91.141,Foggy,14.2,96,180,Residential,Good,1,80,182,4.8,Night,Tue,0,2,1964,Street Light,Low
+2023-01-17 02:00:00,509,33.1841,74.4922,Foggy,12.4,76,128,Residential,Good,4,80,233,6.5,Morning,Wed,0,8,1111,Daylight,Medium
+2023-01-17 03:00:00,352,35.8916,94.5713,Rainy,21.8,67,135,Residential,Good,6,40,361,7.8,Morning,Sat,0,6,1659,Daylight,Medium
+2023-01-17 04:00:00,302,15.8892,69.5952,Cloudy,15.8,67,168,Residential,Fair,4,100,341,5.5,Morning,Thu,0,2,1975,Daylight,Low
+2023-01-17 05:00:00,408,17.8854,89.0285,Foggy,7.4,69,106,Residential,Fair,6,100,163,3.0,Morning,Wed,1,5,1081,Street Light,Medium
+2023-01-17 06:00:00,879,35.5297,89.2825,Snowy,5.8,31,244,Rural,Poor,3,40,130,7.6,Evening,Mon,1,6,961,Street Light,High
+2023-01-17 07:00:00,120,28.9872,80.2034,Snowy,6.3,34,161,Rural,Poor,4,60,377,4.1,Afternoon,Thu,0,0,1100,Street Light,Medium
+2023-01-17 08:00:00,346,19.693,80.3817,Rainy,39.6,69,293,Residential,Good,2,80,375,7.2,Night,Sat,0,9,1498,Daylight,Medium
+2023-01-17 09:00:00,437,36.4825,74.6746,Sunny,20.6,65,201,Rural,Poor,6,100,192,8.9,Morning,Tue,0,9,752,Dark,High
+2023-01-17 10:00:00,747,12.8,84.5918,Sunny,22.2,61,216,Residential,Fair,1,100,135,9.5,Afternoon,Fri,0,1,1746,Street Light,Medium
+2023-01-17 11:00:00,312,17.3087,71.5701,Cloudy,19.9,48,152,Highway,Poor,3,100,228,8.3,Afternoon,Wed,1,0,696,Daylight,Medium
+2023-01-17 12:00:00,265,12.0942,77.6133,Rainy,29.3,87,99,Rural,Poor,1,60,232,0.6,Morning,Sun,0,6,140,Daylight,High
+2023-01-17 13:00:00,253,8.9324,81.7895,Sunny,39.6,84,253,Highway,Poor,6,60,18,6.3,Morning,Sat,1,2,1917,Daylight,Medium
+2023-01-17 14:00:00,324,31.0742,96.0132,Foggy,37.1,31,195,Rural,Good,3,40,284,3.4,Morning,Thu,0,3,1149,Daylight,Medium
+2023-01-17 15:00:00,678,20.6308,74.0485,Rainy,10.1,88,239,Residential,Good,3,100,239,7.8,Evening,Mon,0,0,592,Street Light,Medium
+2023-01-17 16:00:00,730,27.8867,93.4087,Cloudy,40.5,32,136,City,Fair,4,60,72,1.6,Morning,Thu,1,6,1772,Street Light,Medium
+2023-01-17 17:00:00,315,15.1931,82.5427,Foggy,28.5,92,54,Residential,Fair,1,60,248,9.0,Afternoon,Thu,0,0,783,Street Light,Low
+2023-01-17 18:00:00,570,24.8544,73.4969,Sunny,5.4,41,283,Residential,Fair,1,40,343,9.8,Evening,Sun,0,6,520,Daylight,Medium
+2023-01-17 19:00:00,849,22.2475,77.2383,Foggy,7.4,85,124,City,Good,4,60,27,2.9,Evening,Sun,0,7,652,Daylight,Medium
+2023-01-17 20:00:00,672,12.6805,85.2631,Sunny,8.1,82,101,Residential,Good,1,40,262,9.6,Evening,Sat,0,6,698,Street Light,Low
+2023-01-17 21:00:00,802,12.6198,74.073,Rainy,14.5,31,265,Residential,Good,6,40,306,7.6,Evening,Tue,0,8,154,Dark,Medium
+2023-01-17 22:00:00,511,33.8311,84.0961,Snowy,40.7,68,78,Rural,Poor,4,40,61,9.1,Morning,Thu,0,9,699,Street Light,Medium
+2023-01-17 23:00:00,785,16.1086,83.9826,Sunny,31.6,98,25,Highway,Poor,4,100,368,4.1,Morning,Mon,0,9,1763,Street Light,Medium
+2023-01-18 00:00:00,785,32.3821,95.7936,Sunny,35.7,84,207,City,Good,3,100,255,7.8,Night,Fri,0,2,360,Street Light,Medium
+2023-01-18 01:00:00,412,36.8409,79.9329,Rainy,7.8,52,223,Rural,Poor,1,100,28,9.5,Afternoon,Thu,0,4,1196,Daylight,High
+2023-01-18 02:00:00,471,8.678,84.6514,Rainy,17.8,90,246,Rural,Fair,1,80,283,3.6,Night,Wed,0,5,1085,Street Light,Medium
+2023-01-18 03:00:00,779,12.9577,85.2466,Sunny,25.8,75,274,Highway,Good,3,40,19,9.8,Morning,Thu,0,8,657,Street Light,Medium
+2023-01-18 04:00:00,608,30.9788,90.1056,Cloudy,32.2,43,203,Highway,Fair,3,80,144,1.6,Morning,Sun,0,5,777,Dark,Medium
+2023-01-18 05:00:00,175,17.331,76.7211,Snowy,7.8,99,276,Highway,Poor,1,60,211,9.6,Morning,Fri,0,7,987,Street Light,High
+2023-01-18 06:00:00,681,34.2859,86.1357,Sunny,19.1,53,117,Rural,Fair,1,40,41,9.2,Morning,Fri,0,0,1155,Dark,Low
+2023-01-18 07:00:00,336,26.0866,90.4677,Snowy,36.9,39,281,Rural,Good,2,80,325,2.2,Evening,Mon,1,7,1663,Dark,High
+2023-01-18 08:00:00,914,32.1084,92.2989,Rainy,10.4,33,199,Rural,Fair,1,60,18,0.6,Afternoon,Sat,0,2,1730,Daylight,High
+2023-01-18 09:00:00,169,8.7071,88.8854,Rainy,40.2,88,99,Residential,Poor,3,40,18,8.4,Afternoon,Fri,0,4,1794,Daylight,Medium
+2023-01-18 10:00:00,713,21.6767,69.6558,Sunny,27.0,52,74,Residential,Fair,2,40,36,3.3,Afternoon,Sun,0,9,741,Dark,Low
+2023-01-18 11:00:00,505,18.5668,76.1719,Sunny,34.3,84,205,Residential,Good,2,100,112,7.9,Afternoon,Mon,0,2,863,Daylight,Medium
+2023-01-18 12:00:00,595,21.5212,68.2156,Rainy,43.1,55,34,Highway,Fair,3,80,329,2.1,Night,Fri,0,9,1681,Street Light,Medium
+2023-01-18 13:00:00,768,23.6365,80.3931,Sunny,9.9,42,179,Residential,Fair,3,40,218,6.9,Morning,Tue,0,0,1059,Dark,Low
+2023-01-18 14:00:00,842,21.5154,75.2483,Foggy,7.6,67,132,Highway,Fair,6,60,384,8.8,Evening,Sat,0,6,1067,Street Light,Medium
+2023-01-18 15:00:00,697,32.8248,71.2427,Rainy,27.3,71,141,Highway,Fair,2,60,154,4.4,Morning,Sat,0,5,1341,Daylight,Medium
+2023-01-18 16:00:00,826,11.4847,69.2647,Sunny,43.8,97,274,City,Poor,4,60,380,1.4,Evening,Wed,0,0,295,Street Light,High
+2023-01-18 17:00:00,314,21.9202,94.3978,Sunny,15.1,63,114,City,Poor,3,80,277,9.9,Night,Mon,0,3,1980,Daylight,Low
+2023-01-18 18:00:00,982,8.2335,79.363,Cloudy,12.5,72,103,City,Poor,6,40,179,1.8,Afternoon,Mon,0,6,867,Daylight,Medium
+2023-01-18 19:00:00,827,21.0166,96.9806,Snowy,23.9,73,32,Rural,Good,1,40,397,3.6,Morning,Wed,0,5,1442,Daylight,Medium
+2023-01-18 20:00:00,792,22.1407,68.8938,Rainy,40.8,92,112,Rural,Poor,6,40,250,5.4,Night,Thu,0,8,261,Street Light,Medium
+2023-01-18 21:00:00,721,24.2859,95.6976,Sunny,27.0,94,85,Highway,Poor,3,40,247,8.7,Evening,Thu,0,9,663,Dark,Medium
+2023-01-18 22:00:00,195,16.8441,86.7976,Cloudy,36.5,73,271,City,Good,6,60,241,5.6,Night,Mon,1,3,556,Street Light,Low
+2023-01-18 23:00:00,882,18.0404,79.235,Foggy,9.2,89,112,Highway,Fair,6,40,384,2.1,Night,Sat,0,3,1036,Dark,Medium
+2023-01-19 00:00:00,125,10.1387,95.4973,Foggy,20.4,39,43,Residential,Good,4,80,180,3.8,Afternoon,Thu,0,0,851,Dark,Low
+2023-01-19 01:00:00,120,10.0755,73.5901,Foggy,37.3,70,200,Residential,Poor,2,100,245,5.7,Afternoon,Sat,0,1,1900,Daylight,High
+2023-01-19 02:00:00,288,23.2045,87.2675,Snowy,9.6,73,197,Residential,Poor,3,60,201,6.5,Evening,Wed,0,1,1169,Street Light,High
+2023-01-19 03:00:00,971,34.2002,70.5932,Snowy,31.2,42,270,Residential,Good,4,60,285,1.8,Morning,Wed,0,2,1629,Dark,High
+2023-01-19 04:00:00,629,12.4805,86.3455,Sunny,41.3,67,198,City,Good,6,40,219,3.6,Evening,Mon,0,6,1352,Daylight,Medium
+2023-01-19 05:00:00,963,18.7234,92.0345,Rainy,28.3,88,31,Residential,Fair,4,80,18,4.8,Afternoon,Thu,0,8,1376,Daylight,Medium
+2023-01-19 06:00:00,670,36.4618,83.5876,Rainy,33.5,39,238,Rural,Fair,1,100,329,4.2,Afternoon,Thu,1,8,1520,Daylight,High
+2023-01-19 07:00:00,701,9.0811,87.1614,Cloudy,10.6,35,69,Residential,Good,1,80,314,8.9,Evening,Fri,0,4,1067,Daylight,Low
+2023-01-19 08:00:00,798,10.0264,81.0794,Sunny,32.5,87,143,City,Fair,1,100,14,2.2,Night,Tue,0,5,445,Dark,Medium
+2023-01-19 09:00:00,577,23.0994,82.459,Foggy,11.1,32,187,Rural,Good,4,80,25,5.0,Night,Sat,0,7,1654,Dark,Medium
+2023-01-19 10:00:00,242,34.1021,75.9506,Sunny,38.1,68,139,City,Good,1,100,92,6.0,Afternoon,Tue,0,8,504,Dark,Low
+2023-01-19 11:00:00,387,27.6471,69.6641,Snowy,18.8,73,109,City,Poor,4,100,45,0.5,Evening,Mon,0,0,615,Street Light,High
+2023-01-19 12:00:00,105,11.3153,85.9225,Sunny,36.8,44,26,Highway,Poor,2,80,38,9.9,Morning,Sat,0,7,1732,Dark,Medium
+2023-01-19 13:00:00,280,33.7332,90.1985,Snowy,31.9,84,199,Residential,Poor,4,40,35,5.2,Morning,Sun,1,4,1069,Dark,High
+2023-01-19 14:00:00,836,27.9623,83.265,Foggy,19.3,30,145,City,Good,3,100,187,3.0,Evening,Wed,0,6,1606,Street Light,Medium
+2023-01-19 15:00:00,700,19.1061,96.6561,Sunny,10.1,62,25,City,Fair,1,80,392,4.6,Evening,Fri,0,9,1944,Dark,Low
+2023-01-19 16:00:00,548,15.9207,75.3693,Rainy,20.1,42,263,City,Good,1,60,295,6.8,Evening,Wed,0,9,1578,Daylight,Medium
+2023-01-19 17:00:00,511,22.9794,79.5587,Snowy,14.7,32,59,Highway,Fair,3,40,66,2.3,Afternoon,Wed,0,2,597,Street Light,Medium
+2023-01-19 18:00:00,819,8.314,87.539,Snowy,42.5,42,63,Highway,Fair,6,80,399,5.5,Morning,Thu,0,0,1267,Daylight,Low
+2023-01-19 19:00:00,139,32.4364,88.1221,Cloudy,21.1,65,109,Residential,Good,1,80,341,5.5,Night,Tue,1,3,200,Dark,Low
+2023-01-19 20:00:00,930,8.9507,83.9232,Snowy,25.7,60,255,Highway,Fair,4,80,327,8.0,Night,Wed,0,8,1843,Dark,Medium
+2023-01-19 21:00:00,582,20.8939,85.2568,Foggy,17.2,48,123,Rural,Fair,2,40,64,0.6,Evening,Wed,0,1,1562,Street Light,Medium
+2023-01-19 22:00:00,714,30.5996,94.657,Foggy,17.9,32,201,City,Poor,2,80,325,0.7,Morning,Sun,0,2,919,Daylight,High
+2023-01-19 23:00:00,373,23.9988,86.3304,Foggy,23.6,91,88,City,Poor,2,60,337,2.1,Night,Mon,1,7,548,Dark,High
+2023-01-20 00:00:00,220,17.2954,80.504,Rainy,20.3,54,272,Residential,Good,2,40,350,4.4,Night,Wed,0,1,227,Street Light,Medium
+2023-01-20 01:00:00,367,11.897,91.4607,Foggy,30.7,75,120,Residential,Good,4,60,376,5.9,Afternoon,Mon,0,5,1924,Dark,Medium
+2023-01-20 02:00:00,445,35.8119,79.5265,Cloudy,41.7,92,215,Residential,Good,3,100,113,4.4,Night,Thu,0,1,1426,Dark,Medium
+2023-01-20 03:00:00,499,18.9979,68.6952,Rainy,23.9,66,114,Highway,Poor,6,40,175,6.2,Morning,Tue,0,4,1925,Daylight,Medium
+2023-01-20 04:00:00,242,31.2851,93.5484,Foggy,11.3,65,115,Rural,Good,2,100,200,2.6,Morning,Mon,1,4,1785,Daylight,Medium
+2023-01-20 05:00:00,371,13.1651,78.5666,Cloudy,42.2,72,240,Residential,Fair,2,60,156,1.4,Night,Thu,0,8,1254,Street Light,Medium
+2023-01-20 06:00:00,819,12.0554,91.822,Snowy,26.9,97,20,Highway,Fair,2,80,13,8.8,Afternoon,Thu,0,6,459,Daylight,Medium
+2023-01-20 07:00:00,642,19.9231,81.8282,Foggy,8.3,49,34,Rural,Fair,6,40,172,6.3,Night,Thu,0,2,1085,Dark,Low
+2023-01-20 08:00:00,240,8.7895,87.4696,Foggy,22.4,70,204,City,Fair,3,100,144,9.0,Morning,Wed,0,7,996,Daylight,High
+2023-01-20 09:00:00,139,12.6237,87.0493,Snowy,38.4,38,72,Rural,Poor,2,80,25,5.7,Afternoon,Sat,0,1,1548,Daylight,Medium
+2023-01-20 10:00:00,770,15.3583,89.1363,Rainy,34.3,65,236,City,Fair,3,60,217,9.9,Night,Thu,1,9,263,Daylight,Medium
+2023-01-20 11:00:00,412,19.6162,91.3964,Foggy,41.3,84,298,Rural,Fair,2,60,124,4.6,Morning,Mon,0,5,1193,Dark,Medium
+2023-01-20 12:00:00,889,23.2966,86.9898,Sunny,6.4,83,140,Residential,Good,1,60,49,5.6,Evening,Wed,0,2,1697,Daylight,Low
+2023-01-20 13:00:00,451,18.7162,82.4065,Rainy,5.4,35,66,City,Poor,6,100,202,5.8,Morning,Tue,0,3,817,Daylight,Medium
+2023-01-20 14:00:00,359,33.7733,96.134,Snowy,5.7,55,71,Residential,Poor,4,100,61,5.5,Morning,Wed,0,9,1827,Street Light,High
+2023-01-20 15:00:00,409,17.9657,87.12,Snowy,40.7,75,88,Residential,Good,3,80,80,1.0,Night,Sat,0,1,920,Dark,Medium
+2023-01-20 16:00:00,134,19.9161,85.9036,Foggy,20.9,46,287,Residential,Fair,6,60,157,6.0,Afternoon,Fri,0,7,1375,Street Light,Medium
+2023-01-20 17:00:00,632,34.3915,83.7684,Rainy,13.3,54,172,City,Poor,2,60,337,3.8,Night,Wed,0,9,1975,Street Light,Medium
+2023-01-20 18:00:00,667,9.6609,78.3885,Snowy,36.1,80,233,City,Fair,3,60,244,1.1,Evening,Sat,1,4,1036,Street Light,High
+2023-01-20 19:00:00,885,21.0265,82.5792,Cloudy,7.3,39,93,Highway,Poor,6,60,127,5.5,Afternoon,Thu,0,2,1179,Dark,Low
+2023-01-20 20:00:00,427,15.7325,71.2693,Rainy,21.5,53,203,Residential,Fair,4,40,327,4.7,Afternoon,Mon,1,9,840,Daylight,Medium
+2023-01-20 21:00:00,738,31.3899,77.6474,Foggy,11.1,88,41,Highway,Good,2,60,350,1.0,Night,Fri,0,0,540,Daylight,Medium
+2023-01-20 22:00:00,583,31.0154,93.0671,Sunny,13.2,64,124,Residential,Fair,6,80,108,8.1,Morning,Tue,0,3,1849,Street Light,Low
+2023-01-20 23:00:00,411,24.5521,86.6937,Cloudy,10.0,45,216,City,Fair,4,40,317,8.2,Afternoon,Thu,0,9,1035,Daylight,Medium
+2023-01-21 00:00:00,364,13.6497,71.6363,Snowy,31.9,65,214,Highway,Fair,3,100,329,3.2,Evening,Tue,0,0,545,Street Light,Medium
+2023-01-21 01:00:00,345,36.3704,87.9014,Sunny,19.6,30,260,City,Fair,6,40,23,8.8,Afternoon,Thu,0,9,351,Dark,Medium
+2023-01-21 02:00:00,788,20.2659,90.826,Sunny,40.4,35,210,Rural,Poor,1,60,122,9.6,Morning,Wed,1,8,1176,Dark,Medium
+2023-01-21 03:00:00,251,16.493,88.4497,Cloudy,24.6,84,106,Residential,Poor,4,40,24,1.6,Night,Mon,0,2,1811,Dark,Medium
+2023-01-21 04:00:00,986,34.8536,92.0443,Sunny,41.3,73,138,City,Poor,6,60,13,1.5,Afternoon,Fri,0,4,1968,Dark,Medium
+2023-01-21 05:00:00,729,33.7667,75.4696,Cloudy,6.3,62,231,Highway,Fair,4,100,302,9.2,Evening,Thu,0,7,1232,Daylight,Medium
+2023-01-21 06:00:00,490,14.3362,79.0038,Rainy,18.5,58,85,Residential,Fair,1,60,126,9.7,Night,Mon,0,8,1394,Daylight,Medium
+2023-01-21 07:00:00,673,33.2592,87.6953,Sunny,15.6,69,95,City,Poor,1,40,271,2.8,Evening,Wed,1,2,1985,Daylight,Medium
+2023-01-21 08:00:00,451,11.8059,71.9708,Snowy,32.9,38,260,City,Poor,4,80,214,3.3,Afternoon,Mon,0,9,1266,Street Light,High
+2023-01-21 09:00:00,657,12.0431,94.0732,Cloudy,8.6,72,135,City,Poor,3,80,62,6.8,Morning,Tue,0,4,1834,Dark,Low
+2023-01-21 10:00:00,706,14.1088,80.211,Foggy,37.6,99,270,Residential,Good,3,40,297,8.5,Evening,Tue,1,9,1706,Street Light,Medium
+2023-01-21 11:00:00,111,26.2891,68.9275,Sunny,26.1,40,162,City,Fair,6,60,355,5.9,Afternoon,Wed,0,3,1764,Daylight,Low
+2023-01-21 12:00:00,135,32.6892,74.0915,Sunny,16.0,45,276,Highway,Poor,2,40,38,1.7,Night,Sun,0,6,320,Dark,High
+2023-01-21 13:00:00,803,31.2066,96.027,Sunny,23.5,84,159,City,Fair,4,60,386,9.2,Evening,Sun,0,6,253,Street Light,Low
+2023-01-21 14:00:00,973,35.7037,76.9033,Foggy,7.9,89,248,Residential,Good,6,100,269,7.3,Evening,Tue,0,0,1714,Daylight,Medium
+2023-01-21 15:00:00,148,8.5929,73.5046,Snowy,32.4,86,299,Highway,Fair,4,100,379,9.2,Afternoon,Tue,0,5,1520,Street Light,High
+2023-01-21 16:00:00,793,32.8219,86.9296,Snowy,5.4,45,77,Rural,Good,3,40,383,6.9,Afternoon,Sun,0,0,415,Street Light,Low
+2023-01-21 17:00:00,968,9.5992,69.3518,Sunny,21.9,47,295,City,Poor,2,60,327,1.8,Morning,Fri,0,5,1398,Daylight,High
+2023-01-21 18:00:00,477,13.997,93.5235,Foggy,20.2,75,140,Rural,Poor,3,100,389,1.7,Morning,Wed,1,1,403,Dark,High
+2023-01-21 19:00:00,316,21.1394,77.9165,Rainy,22.3,63,110,Highway,Good,4,80,102,5.4,Evening,Wed,0,8,1820,Dark,Medium
+2023-01-21 20:00:00,807,27.7145,93.2205,Foggy,43.7,59,133,Residential,Fair,6,80,126,8.6,Morning,Thu,0,2,1153,Dark,Low
+2023-01-21 21:00:00,747,25.062,71.3684,Cloudy,16.0,43,87,Rural,Good,2,40,390,2.8,Morning,Wed,0,7,1721,Dark,Medium
+2023-01-21 22:00:00,864,34.4303,91.0479,Snowy,18.5,78,250,City,Poor,4,60,312,8.0,Evening,Thu,0,2,1978,Street Light,High
+2023-01-21 23:00:00,581,29.6714,72.0587,Snowy,15.7,37,245,Residential,Fair,1,60,208,1.4,Morning,Thu,1,4,1529,Daylight,High
+2023-01-22 00:00:00,933,8.836,96.2267,Rainy,43.3,64,224,Rural,Poor,3,60,29,8.8,Night,Thu,1,4,1368,Street Light,High
+2023-01-22 01:00:00,287,10.7774,81.5351,Snowy,13.7,79,26,Rural,Good,4,100,313,8.2,Morning,Sun,0,9,1422,Daylight,Medium
+2023-01-22 02:00:00,624,16.4693,69.9805,Snowy,7.3,35,125,Residential,Poor,4,40,242,1.7,Afternoon,Mon,0,0,1165,Dark,High
+2023-01-22 03:00:00,907,26.883,80.3314,Snowy,15.8,65,227,Residential,Fair,2,80,58,2.8,Afternoon,Sun,0,2,1157,Dark,High
+2023-01-22 04:00:00,242,22.9244,77.3907,Cloudy,35.8,36,197,Highway,Poor,2,40,114,1.1,Night,Wed,0,6,322,Dark,High
+2023-01-22 05:00:00,244,32.5644,68.3085,Foggy,32.2,61,266,Residential,Fair,3,60,337,1.4,Evening,Mon,0,4,754,Dark,High
+2023-01-22 06:00:00,628,16.5151,81.1509,Sunny,8.0,73,201,Rural,Good,4,100,377,7.4,Afternoon,Sat,0,0,1842,Daylight,Medium
+2023-01-22 07:00:00,427,20.2787,94.0987,Rainy,43.8,69,292,Highway,Fair,2,80,54,6.2,Afternoon,Sun,0,3,1851,Dark,Medium
+2023-01-22 08:00:00,551,23.9683,79.6654,Snowy,42.1,48,83,Rural,Fair,6,100,359,4.2,Afternoon,Mon,0,1,995,Street Light,Medium
+2023-01-22 09:00:00,288,34.2503,94.659,Sunny,30.5,87,277,Highway,Poor,4,80,14,5.9,Night,Mon,0,8,730,Daylight,Medium
+2023-01-22 10:00:00,600,28.7047,74.3413,Foggy,31.0,39,150,City,Good,2,40,324,1.7,Morning,Sat,0,1,997,Street Light,Medium
+2023-01-22 11:00:00,489,34.7021,84.2475,Cloudy,35.4,97,187,City,Fair,2,40,296,1.3,Evening,Thu,1,6,1826,Dark,Medium
+2023-01-22 12:00:00,487,28.1215,91.5771,Foggy,11.3,55,221,Residential,Fair,4,80,281,7.4,Evening,Fri,0,0,386,Street Light,Medium
+2023-01-22 13:00:00,773,15.0518,95.2535,Snowy,8.3,99,126,Rural,Good,2,60,30,4.4,Afternoon,Sat,0,4,567,Dark,Low
+2023-01-22 14:00:00,916,17.917,80.292,Rainy,37.5,84,146,City,Fair,3,40,112,6.2,Evening,Sat,0,6,532,Street Light,Medium
+2023-01-22 15:00:00,644,36.0073,76.2819,Sunny,6.5,32,66,Highway,Fair,6,60,188,5.3,Afternoon,Thu,0,2,649,Daylight,Low
+2023-01-22 16:00:00,281,8.613,69.8682,Snowy,31.3,88,185,Residential,Good,6,40,206,5.9,Evening,Sun,0,9,762,Street Light,Medium
+2023-01-22 17:00:00,246,33.0471,90.2513,Rainy,42.5,85,242,Residential,Fair,1,60,251,0.7,Night,Tue,0,3,449,Dark,High
+2023-01-22 18:00:00,880,19.0233,87.1099,Foggy,15.2,80,237,Highway,Fair,4,60,395,8.4,Afternoon,Thu,0,3,1505,Street Light,Medium
+2023-01-22 19:00:00,542,14.9468,90.3006,Foggy,43.1,52,26,Rural,Good,4,100,138,8.2,Evening,Mon,0,6,1568,Daylight,Medium
+2023-01-22 20:00:00,241,11.8526,89.1643,Snowy,36.9,73,244,City,Fair,3,40,350,2.2,Afternoon,Tue,0,5,398,Dark,High
+2023-01-22 21:00:00,166,35.6078,94.0975,Sunny,23.6,70,159,Residential,Good,3,80,390,4.7,Morning,Wed,0,5,678,Daylight,Low
+2023-01-22 22:00:00,489,33.6713,93.1333,Cloudy,40.6,80,185,City,Fair,3,40,144,0.7,Afternoon,Fri,0,0,1936,Daylight,Medium
+2023-01-22 23:00:00,862,23.0857,89.7293,Cloudy,7.3,50,223,Highway,Good,1,80,127,8.2,Morning,Mon,0,9,808,Daylight,Medium
+2023-01-23 00:00:00,469,21.2466,69.6374,Foggy,27.6,65,78,Highway,Good,2,60,237,5.0,Morning,Tue,0,8,1454,Dark,Medium
+2023-01-23 01:00:00,338,30.7064,77.781,Sunny,28.8,31,153,Residential,Poor,3,40,120,2.1,Night,Sun,0,6,908,Street Light,Medium
+2023-01-23 02:00:00,885,14.9446,91.3234,Sunny,25.0,62,84,Rural,Fair,6,80,78,3.5,Morning,Sun,1,3,236,Street Light,Low
+2023-01-23 03:00:00,213,30.0493,87.4694,Rainy,5.4,97,115,Residential,Fair,3,100,185,4.1,Evening,Sun,0,7,1791,Dark,Medium
+2023-01-23 04:00:00,370,15.9834,94.0703,Sunny,22.6,68,286,Highway,Fair,6,100,173,0.8,Afternoon,Fri,1,1,802,Dark,Medium
+2023-01-23 05:00:00,376,17.3891,71.2996,Sunny,17.1,55,231,Rural,Poor,6,60,294,7.1,Evening,Mon,0,0,1805,Dark,Medium
+2023-01-23 06:00:00,165,17.827,95.1598,Sunny,36.7,90,207,City,Good,2,80,335,9.4,Evening,Thu,0,0,1886,Daylight,Low
+2023-01-23 07:00:00,549,27.5941,88.2298,Foggy,39.5,72,266,Rural,Good,4,100,236,6.8,Morning,Sun,0,0,1253,Street Light,Medium
+2023-01-23 08:00:00,163,31.0102,86.7687,Rainy,9.3,72,183,City,Fair,3,80,40,8.9,Night,Mon,0,8,1563,Daylight,Medium
+2023-01-23 09:00:00,631,13.3462,85.3298,Cloudy,26.3,76,34,City,Poor,3,100,227,3.3,Afternoon,Sun,0,5,1297,Dark,Medium
+2023-01-23 10:00:00,225,30.5422,72.4262,Rainy,26.5,67,249,City,Poor,2,80,193,9.5,Afternoon,Mon,0,3,1777,Dark,High
+2023-01-23 11:00:00,748,25.1985,95.4145,Sunny,30.6,84,58,City,Fair,6,60,375,5.3,Night,Mon,0,4,1740,Dark,Low
+2023-01-23 12:00:00,922,20.1731,96.6009,Snowy,36.5,31,91,Highway,Fair,6,80,23,0.9,Afternoon,Fri,0,9,278,Dark,Medium
+2023-01-23 13:00:00,650,9.7468,74.4698,Cloudy,21.1,73,121,City,Fair,4,60,212,5.8,Afternoon,Wed,0,5,160,Street Light,Low
+2023-01-23 14:00:00,699,26.1108,80.2331,Snowy,38.1,92,83,Rural,Poor,1,100,284,7.8,Morning,Sun,0,7,1461,Street Light,High
+2023-01-23 15:00:00,694,29.0939,87.6016,Sunny,8.5,98,96,Highway,Fair,6,80,223,8.0,Night,Mon,0,1,629,Street Light,Low
+2023-01-23 16:00:00,500,14.967,78.8761,Foggy,26.3,94,226,Rural,Poor,3,60,120,2.0,Evening,Thu,0,8,1971,Daylight,High
+2023-01-23 17:00:00,750,24.5308,72.0852,Rainy,5.4,49,131,Rural,Poor,2,60,221,9.4,Night,Thu,0,7,135,Dark,Medium
+2023-01-23 18:00:00,582,26.0292,85.358,Rainy,28.1,58,219,Residential,Good,6,40,344,4.9,Night,Sat,0,4,388,Street Light,Medium
+2023-01-23 19:00:00,456,30.3911,93.9254,Cloudy,16.7,89,59,Highway,Fair,1,80,333,7.0,Night,Sun,1,5,608,Dark,Low
+2023-01-23 20:00:00,963,26.984,71.8668,Sunny,43.8,40,33,Rural,Good,1,40,374,2.8,Afternoon,Fri,0,7,1928,Daylight,Medium
+2023-01-23 21:00:00,240,22.6349,85.5068,Snowy,42.1,31,188,Highway,Fair,3,40,85,3.3,Evening,Sun,0,6,1307,Street Light,Medium
+2023-01-23 22:00:00,742,14.7814,80.1369,Rainy,36.9,79,266,Highway,Poor,6,80,367,9.1,Night,Tue,1,1,305,Street Light,High
+2023-01-23 23:00:00,646,15.5965,95.3072,Sunny,34.4,55,238,Highway,Fair,4,100,161,4.6,Morning,Wed,0,3,1086,Dark,Medium
+2023-01-24 00:00:00,972,16.6193,78.7851,Sunny,38.3,33,224,City,Good,2,60,232,3.5,Afternoon,Thu,0,8,482,Daylight,Medium
+2023-01-24 01:00:00,617,16.003,91.2532,Snowy,34.2,45,58,Highway,Good,6,80,379,7.4,Evening,Thu,0,6,417,Dark,Medium
+2023-01-24 02:00:00,986,28.6176,81.4279,Cloudy,23.2,82,204,City,Poor,3,40,288,8.0,Night,Thu,0,2,798,Street Light,Medium
+2023-01-24 03:00:00,703,15.619,70.4489,Foggy,41.6,88,250,Residential,Good,4,40,347,9.7,Night,Thu,0,6,989,Daylight,Medium
+2023-01-24 04:00:00,703,22.956,91.0996,Rainy,37.1,95,183,Residential,Fair,4,100,168,2.2,Evening,Fri,0,6,214,Dark,High
+2023-01-24 05:00:00,675,15.9954,69.4279,Rainy,12.2,77,72,Residential,Good,1,40,268,3.2,Afternoon,Tue,0,4,1432,Daylight,Low
+2023-01-24 06:00:00,712,31.3637,90.0509,Snowy,23.7,63,73,City,Good,3,80,198,0.6,Afternoon,Tue,0,2,1797,Dark,Medium
+2023-01-24 07:00:00,834,29.0418,89.3937,Foggy,24.1,75,86,Rural,Good,3,60,318,7.8,Night,Fri,1,6,833,Daylight,Medium
+2023-01-24 08:00:00,886,33.6706,95.9258,Foggy,9.6,53,86,Residential,Poor,3,80,267,8.4,Afternoon,Sat,0,4,1929,Dark,Medium
+2023-01-24 09:00:00,356,32.4146,72.0869,Cloudy,23.2,36,65,City,Good,1,100,388,6.5,Evening,Sun,0,9,1703,Dark,Low
+2023-01-24 10:00:00,948,33.436,93.1953,Sunny,24.1,90,26,Highway,Poor,3,100,261,3.4,Evening,Thu,0,2,1831,Daylight,Medium
+2023-01-24 11:00:00,234,26.6981,80.2928,Foggy,18.6,66,85,City,Poor,6,80,178,3.9,Afternoon,Sat,0,0,713,Dark,Medium
+2023-01-24 12:00:00,946,16.9153,86.23,Sunny,38.3,54,203,City,Fair,1,40,360,0.6,Evening,Mon,0,9,1971,Dark,Medium
+2023-01-24 13:00:00,632,17.3886,91.2631,Snowy,30.8,40,196,Residential,Good,1,80,349,6.3,Afternoon,Sun,0,9,1179,Daylight,Medium
+2023-01-24 14:00:00,788,16.3185,96.5832,Sunny,39.4,45,224,City,Fair,6,40,323,3.7,Morning,Tue,0,7,1369,Dark,Medium
+2023-01-24 15:00:00,974,19.3649,88.0683,Snowy,17.4,77,105,Highway,Poor,3,80,186,7.2,Afternoon,Mon,0,3,314,Street Light,Medium
+2023-01-24 16:00:00,117,20.9174,71.0477,Rainy,26.3,46,115,Highway,Fair,3,80,171,4.0,Evening,Fri,0,2,1077,Dark,Low
+2023-01-24 17:00:00,559,13.7152,82.5698,Snowy,38.8,98,133,Residential,Good,1,80,273,2.8,Morning,Sun,0,5,293,Street Light,Medium
+2023-01-24 18:00:00,287,36.5021,71.7633,Sunny,15.8,67,206,Highway,Good,1,80,163,1.6,Afternoon,Mon,1,6,1240,Street Light,Medium
+2023-01-24 19:00:00,363,35.6203,90.2329,Snowy,24.4,78,224,Highway,Good,4,40,110,5.4,Afternoon,Tue,0,4,1283,Street Light,Medium
+2023-01-24 20:00:00,318,12.0884,87.1876,Rainy,13.8,32,108,Residential,Fair,1,80,220,5.0,Morning,Fri,0,9,535,Dark,Medium
+2023-01-24 21:00:00,399,16.4244,78.9313,Sunny,35.9,30,108,Rural,Fair,3,100,23,7.9,Morning,Tue,1,6,871,Daylight,Low
+2023-01-24 22:00:00,698,14.0898,93.4669,Cloudy,35.5,51,83,Highway,Poor,6,40,245,9.9,Evening,Fri,0,5,496,Street Light,Medium
+2023-01-24 23:00:00,584,13.9341,76.729,Rainy,34.3,62,149,City,Good,3,100,123,4.9,Afternoon,Thu,0,9,286,Daylight,Medium
+2023-01-25 00:00:00,457,10.1956,71.2862,Foggy,8.7,88,269,Highway,Fair,3,100,121,9.2,Morning,Sun,0,2,821,Dark,Medium
+2023-01-25 01:00:00,403,19.9342,83.2632,Foggy,34.8,58,191,Residential,Fair,6,40,86,2.9,Morning,Tue,0,4,1618,Street Light,High
+2023-01-25 02:00:00,469,32.9542,74.3376,Foggy,10.4,60,179,City,Good,4,40,240,7.4,Evening,Thu,0,7,537,Daylight,Medium
+2023-01-25 03:00:00,681,15.6531,72.916,Sunny,21.1,85,183,Residential,Fair,4,60,329,2.4,Night,Wed,0,8,1672,Dark,Medium
+2023-01-25 04:00:00,225,33.691,70.176,Snowy,22.5,35,165,Rural,Fair,3,80,121,3.4,Morning,Thu,0,2,1520,Dark,Low
+2023-01-25 05:00:00,989,8.6811,92.3021,Foggy,9.6,62,199,Highway,Good,4,60,68,8.1,Afternoon,Mon,0,8,295,Street Light,Medium
+2023-01-25 06:00:00,715,20.5398,90.6242,Sunny,12.3,73,103,Rural,Good,2,40,288,3.4,Morning,Tue,0,2,709,Dark,Low
+2023-01-25 07:00:00,236,16.3648,75.9323,Cloudy,44.1,65,97,City,Poor,6,60,50,0.5,Evening,Wed,0,2,623,Daylight,Medium
+2023-01-25 08:00:00,797,26.8859,75.0962,Foggy,39.5,75,296,Rural,Poor,1,60,155,5.6,Morning,Tue,0,2,1774,Street Light,High
+2023-01-25 09:00:00,159,20.0847,88.7705,Foggy,6.3,55,250,Rural,Poor,2,80,97,5.3,Evening,Sat,0,2,220,Daylight,High
+2023-01-25 10:00:00,453,34.4398,78.9047,Foggy,22.0,60,170,Highway,Poor,1,80,299,4.9,Morning,Sun,0,9,1066,Daylight,Medium
+2023-01-25 11:00:00,572,12.9166,88.6943,Sunny,11.8,94,48,City,Poor,6,60,318,9.5,Night,Sun,0,5,1523,Daylight,Medium
+2023-01-25 12:00:00,356,20.5903,69.6607,Sunny,44.5,92,200,Residential,Good,1,100,192,5.5,Morning,Thu,1,1,1763,Daylight,Medium
+2023-01-25 13:00:00,453,10.3152,73.5938,Sunny,23.7,78,97,Residential,Good,1,80,32,4.2,Night,Sun,0,1,1558,Street Light,Low
+2023-01-25 14:00:00,480,26.1292,84.2787,Sunny,43.6,94,37,Residential,Fair,2,80,301,6.0,Evening,Mon,0,9,1482,Street Light,Low
+2023-01-25 15:00:00,620,35.1938,96.3762,Cloudy,13.9,77,287,Residential,Poor,1,60,398,5.2,Night,Sun,0,4,1232,Daylight,Medium
+2023-01-25 16:00:00,972,35.6063,79.2425,Cloudy,33.4,97,129,Rural,Good,1,80,117,3.2,Evening,Sun,0,0,1941,Dark,Low
+2023-01-25 17:00:00,414,30.7957,81.8213,Cloudy,25.1,91,140,Highway,Good,3,40,277,9.5,Night,Sat,0,5,1691,Daylight,Low
+2023-01-25 18:00:00,203,29.5027,87.2866,Rainy,17.3,61,73,Residential,Fair,2,60,396,2.8,Afternoon,Thu,0,3,1219,Street Light,Medium
+2023-01-25 19:00:00,685,32.2398,90.1563,Snowy,22.1,98,67,Residential,Fair,6,80,64,2.6,Evening,Sun,0,9,1591,Daylight,Medium
+2023-01-25 20:00:00,473,17.4008,80.8641,Rainy,19.8,43,220,Rural,Good,3,80,249,3.1,Evening,Sat,0,5,751,Dark,Medium
+2023-01-25 21:00:00,172,35.1895,93.8635,Cloudy,27.4,43,122,Highway,Good,2,100,102,7.1,Evening,Fri,0,2,1200,Street Light,Low
+2023-01-25 22:00:00,777,20.511,83.8185,Cloudy,28.5,90,45,Residential,Fair,1,40,292,5.7,Morning,Tue,0,7,1997,Dark,Low
+2023-01-25 23:00:00,781,25.1549,93.472,Cloudy,37.4,83,69,Highway,Poor,4,60,225,1.8,Night,Fri,0,6,1376,Street Light,Medium
+2023-01-26 00:00:00,362,9.1681,83.737,Cloudy,44.7,45,169,City,Fair,3,80,384,9.6,Afternoon,Fri,0,3,651,Dark,Low
+2023-01-26 01:00:00,701,30.4074,90.0573,Rainy,7.3,30,251,City,Fair,6,40,131,9.1,Afternoon,Sat,0,2,377,Street Light,Medium
+2023-01-26 02:00:00,751,20.1591,77.2816,Cloudy,37.5,40,112,Highway,Fair,3,80,175,5.8,Afternoon,Sun,0,2,1683,Daylight,Low
+2023-01-26 03:00:00,718,13.9682,70.151,Sunny,32.3,78,214,Rural,Fair,3,100,196,8.3,Morning,Tue,0,7,369,Daylight,Medium
+2023-01-26 04:00:00,577,36.1969,96.221,Cloudy,31.5,89,296,Highway,Poor,6,40,100,0.8,Night,Fri,0,7,1288,Dark,High
+2023-01-26 05:00:00,434,36.5859,72.2561,Rainy,6.2,78,248,Highway,Good,3,100,76,1.6,Night,Wed,0,9,1901,Daylight,High
+2023-01-26 06:00:00,716,36.6504,81.2866,Cloudy,21.9,95,190,Rural,Good,6,40,100,6.0,Morning,Fri,0,6,535,Dark,Medium
+2023-01-26 07:00:00,769,24.1673,92.903,Snowy,21.6,38,107,Highway,Poor,3,60,242,1.7,Evening,Thu,0,2,1571,Dark,High
+2023-01-26 08:00:00,357,36.4951,90.0241,Cloudy,30.6,96,124,Rural,Fair,1,100,325,7.7,Morning,Wed,0,0,266,Street Light,Low
+2023-01-26 09:00:00,632,31.8236,91.9119,Foggy,8.5,52,273,Highway,Fair,3,40,184,2.0,Morning,Wed,0,2,919,Dark,High
+2023-01-26 10:00:00,626,25.2929,69.5258,Sunny,31.4,99,216,City,Good,2,40,129,1.8,Afternoon,Tue,0,9,1232,Daylight,Medium
+2023-01-26 11:00:00,521,14.3817,90.098,Foggy,28.7,49,96,City,Good,3,100,65,0.9,Morning,Fri,1,0,1794,Daylight,Medium
+2023-01-26 12:00:00,655,21.378,75.4567,Cloudy,34.5,31,64,Residential,Poor,4,60,221,7.3,Afternoon,Fri,0,5,1700,Dark,Medium
+2023-01-26 13:00:00,724,14.281,95.7225,Sunny,18.0,92,253,Residential,Good,2,60,152,7.1,Afternoon,Sun,0,7,1470,Street Light,Medium
+2023-01-26 14:00:00,542,9.2482,68.1168,Cloudy,22.9,91,40,Rural,Poor,2,80,267,3.7,Evening,Sat,0,5,1557,Street Light,Medium
+2023-01-26 15:00:00,105,16.3729,90.7217,Sunny,30.6,55,215,Rural,Good,4,40,243,8.5,Morning,Mon,0,7,1424,Street Light,Medium
+2023-01-26 16:00:00,522,8.5294,85.1216,Rainy,15.6,93,206,City,Good,4,40,283,0.5,Night,Mon,0,0,134,Dark,High
+2023-01-26 17:00:00,386,33.8432,86.034,Sunny,10.9,60,232,Rural,Good,3,40,226,9.0,Afternoon,Mon,0,6,301,Daylight,Medium
+2023-01-26 18:00:00,440,24.4481,88.6463,Cloudy,37.3,84,231,Residential,Good,3,40,250,3.8,Night,Tue,0,7,266,Daylight,Medium
+2023-01-26 19:00:00,181,31.2292,89.6638,Snowy,22.5,96,150,Rural,Good,2,100,124,6.9,Night,Fri,1,1,1485,Street Light,Medium
+2023-01-26 20:00:00,860,34.5753,72.551,Foggy,11.0,48,264,City,Fair,6,80,373,7.8,Evening,Sat,0,1,1551,Dark,Medium
+2023-01-26 21:00:00,497,12.6174,77.2121,Rainy,41.2,46,162,City,Good,1,60,93,6.8,Morning,Thu,1,9,1822,Daylight,Medium
+2023-01-26 22:00:00,835,20.2308,89.4769,Snowy,14.1,56,54,Residential,Good,3,80,385,3.9,Evening,Mon,1,9,956,Daylight,Medium
+2023-01-26 23:00:00,739,31.5894,90.7161,Snowy,35.3,47,80,Rural,Poor,6,100,307,4.8,Afternoon,Mon,0,9,371,Street Light,High
+2023-01-27 00:00:00,766,21.6446,88.3555,Rainy,18.9,58,109,Rural,Fair,4,60,298,2.3,Morning,Sun,0,0,720,Street Light,Medium
+2023-01-27 01:00:00,719,36.6991,85.8873,Sunny,26.1,93,140,Highway,Poor,6,40,238,1.9,Evening,Fri,0,9,162,Street Light,Medium
+2023-01-27 02:00:00,697,26.0687,74.5012,Snowy,25.3,99,119,Residential,Good,6,100,390,5.3,Night,Thu,0,0,1036,Dark,Medium
+2023-01-27 03:00:00,954,29.9405,88.5866,Rainy,24.8,75,152,Residential,Poor,3,80,382,3.7,Morning,Fri,0,4,165,Dark,Medium
+2023-01-27 04:00:00,428,12.0319,72.534,Rainy,5.9,83,257,City,Poor,3,60,182,6.6,Night,Thu,0,3,1717,Street Light,High
+2023-01-27 05:00:00,603,26.1252,94.5828,Snowy,31.2,75,273,Residential,Poor,3,80,359,3.6,Evening,Tue,0,8,348,Street Light,High
+2023-01-27 06:00:00,614,25.0239,72.8911,Cloudy,5.7,36,211,Rural,Good,4,80,234,2.7,Morning,Thu,0,3,795,Daylight,Medium
+2023-01-27 07:00:00,219,26.6709,92.2027,Sunny,24.2,91,157,City,Fair,1,100,14,4.9,Morning,Thu,1,0,474,Daylight,Low
+2023-01-27 08:00:00,993,23.7887,84.3957,Foggy,11.4,39,159,City,Good,1,60,179,6.5,Evening,Thu,0,9,314,Street Light,Medium
+2023-01-27 09:00:00,373,14.3818,77.6747,Snowy,16.2,95,172,Rural,Poor,3,80,64,4.6,Afternoon,Wed,1,5,959,Dark,Medium
+2023-01-27 10:00:00,747,9.6387,94.4282,Sunny,30.5,52,207,Rural,Good,2,60,167,1.6,Night,Mon,0,4,953,Street Light,Medium
+2023-01-27 11:00:00,790,27.6462,81.346,Sunny,17.0,32,260,Rural,Fair,4,40,86,5.4,Morning,Sun,0,3,1089,Street Light,Low
+2023-01-27 12:00:00,106,19.0446,95.2214,Cloudy,40.3,83,212,Rural,Good,4,60,251,9.8,Night,Thu,1,6,212,Street Light,Medium
+2023-01-27 13:00:00,167,33.7818,69.9592,Snowy,8.7,52,106,Residential,Good,2,80,193,9.1,Night,Fri,0,8,298,Daylight,Medium
+2023-01-27 14:00:00,472,22.5421,89.3738,Rainy,40.3,39,20,Highway,Fair,1,60,289,8.2,Afternoon,Tue,0,6,743,Street Light,Medium
+2023-01-27 15:00:00,783,19.5683,69.0284,Foggy,14.6,40,270,Residential,Fair,3,100,71,2.7,Evening,Tue,0,4,1747,Dark,High
+2023-01-27 16:00:00,294,32.9781,69.1341,Sunny,29.1,89,101,Highway,Poor,1,80,307,1.5,Night,Wed,0,3,186,Dark,Medium
+2023-01-27 17:00:00,655,8.0644,91.4685,Cloudy,8.1,78,166,Rural,Poor,1,100,52,2.0,Night,Fri,0,7,171,Dark,High
+2023-01-27 18:00:00,165,16.891,92.1986,Sunny,12.0,33,58,Residential,Fair,3,60,346,2.2,Afternoon,Tue,0,6,1986,Street Light,Medium
+2023-01-27 19:00:00,139,32.8993,75.0882,Foggy,31.0,39,41,City,Good,2,100,386,2.4,Morning,Wed,0,1,972,Dark,Medium
+2023-01-27 20:00:00,939,34.7515,74.7813,Snowy,27.6,74,183,Highway,Fair,4,60,194,4.0,Afternoon,Thu,1,1,1713,Dark,Medium
+2023-01-27 21:00:00,423,11.7239,89.4545,Sunny,11.4,91,105,Highway,Good,6,40,323,7.4,Morning,Sat,1,8,206,Daylight,Low
+2023-01-27 22:00:00,124,34.7736,68.3763,Foggy,24.9,39,133,Highway,Fair,1,60,334,1.0,Evening,Sun,0,4,1750,Street Light,Medium
+2023-01-27 23:00:00,829,12.023,91.8979,Snowy,19.5,90,145,Rural,Poor,3,40,350,0.9,Afternoon,Sat,0,4,1930,Daylight,High
+2023-01-28 00:00:00,181,29.7326,86.2701,Sunny,24.6,37,284,Rural,Fair,1,80,32,1.7,Night,Tue,0,3,1165,Daylight,Medium
+2023-01-28 01:00:00,248,14.4613,80.3774,Sunny,39.9,85,97,Rural,Fair,4,60,284,5.0,Afternoon,Sat,0,1,903,Dark,Low
+2023-01-28 02:00:00,232,27.2342,74.2088,Foggy,26.7,56,231,City,Poor,6,80,190,3.4,Afternoon,Thu,0,4,1462,Dark,High
+2023-01-28 03:00:00,871,8.9677,92.6621,Rainy,20.9,36,189,Rural,Poor,2,100,27,1.5,Morning,Sat,0,5,915,Street Light,High
+2023-01-28 04:00:00,595,15.9902,84.6919,Sunny,15.9,43,77,Rural,Poor,6,100,155,1.2,Evening,Wed,0,0,1220,Dark,Medium
+2023-01-28 05:00:00,116,10.9258,69.1951,Snowy,12.0,56,227,Residential,Fair,6,60,188,7.1,Afternoon,Tue,1,7,840,Street Light,Medium
+2023-01-28 06:00:00,324,32.843,77.7836,Cloudy,19.4,74,279,City,Poor,6,80,374,7.1,Afternoon,Wed,0,5,1464,Street Light,Medium
+2023-01-28 07:00:00,976,32.2701,80.4691,Snowy,21.0,61,71,Rural,Poor,4,40,351,9.6,Afternoon,Tue,0,9,909,Dark,Medium
+2023-01-28 08:00:00,190,10.9546,84.4536,Rainy,19.9,60,72,Residential,Poor,2,100,348,7.4,Afternoon,Thu,0,6,1810,Dark,High
+2023-01-28 09:00:00,800,9.2737,81.2974,Snowy,7.1,62,105,City,Good,6,40,332,8.7,Afternoon,Sat,0,3,1280,Daylight,Low
+2023-01-28 10:00:00,647,22.1813,73.9988,Snowy,10.4,86,145,Highway,Poor,3,100,229,9.6,Evening,Sun,0,7,113,Dark,High
+2023-01-28 11:00:00,197,18.2158,79.2148,Rainy,29.0,98,190,Highway,Good,4,80,339,5.9,Morning,Sat,0,1,683,Daylight,Medium
+2023-01-28 12:00:00,554,30.0743,82.7998,Rainy,10.0,91,112,Residential,Poor,4,40,52,1.5,Afternoon,Mon,0,5,1868,Dark,High
+2023-01-28 13:00:00,339,12.2947,92.5218,Rainy,20.0,83,162,City,Good,3,80,254,8.1,Evening,Tue,0,4,1150,Street Light,Low
+2023-01-28 14:00:00,834,14.6055,87.768,Cloudy,36.0,86,33,Rural,Good,1,100,137,4.6,Afternoon,Sat,1,5,719,Daylight,Low
+2023-01-28 15:00:00,942,9.072,81.0886,Sunny,24.5,57,33,City,Good,2,40,124,9.8,Night,Sat,0,5,653,Daylight,Low
+2023-01-28 16:00:00,560,36.1206,81.3548,Cloudy,38.2,38,88,Rural,Poor,4,60,23,5.8,Morning,Sat,0,8,553,Daylight,Medium
+2023-01-28 17:00:00,798,8.2353,83.1686,Cloudy,21.1,44,242,City,Good,4,80,391,4.4,Afternoon,Sun,0,0,1318,Street Light,Low
+2023-01-28 18:00:00,995,25.1116,70.5104,Cloudy,30.0,37,281,Rural,Good,4,80,373,5.9,Night,Tue,0,9,1308,Street Light,Medium
+2023-01-28 19:00:00,357,8.4728,71.7751,Foggy,24.4,93,139,Highway,Poor,3,80,194,1.5,Evening,Thu,0,2,1469,Dark,High
+2023-01-28 20:00:00,694,28.9804,72.7718,Rainy,16.4,94,196,Rural,Poor,6,60,113,5.8,Night,Thu,1,3,263,Dark,High
+2023-01-28 21:00:00,297,9.7341,75.8428,Cloudy,32.7,56,152,Highway,Good,1,80,260,0.7,Evening,Thu,0,4,1952,Daylight,Low
+2023-01-28 22:00:00,514,11.3307,71.5565,Snowy,42.6,46,269,Highway,Good,2,60,389,4.6,Evening,Thu,0,3,1027,Street Light,Medium
+2023-01-28 23:00:00,993,10.4253,92.7765,Snowy,41.1,80,184,City,Fair,6,100,111,1.6,Afternoon,Sat,0,0,191,Street Light,High
+2023-01-29 00:00:00,467,22.5772,80.1386,Snowy,11.8,53,295,City,Fair,4,80,357,2.6,Afternoon,Wed,0,7,1784,Daylight,High
+2023-01-29 01:00:00,826,23.2838,83.7493,Foggy,5.3,35,55,City,Good,4,40,391,0.5,Night,Sat,1,1,478,Daylight,Medium
+2023-01-29 02:00:00,996,26.9021,88.8866,Rainy,23.9,85,114,City,Good,1,80,204,5.8,Morning,Thu,0,1,1201,Street Light,Low
+2023-01-29 03:00:00,181,20.6599,84.3914,Cloudy,32.3,46,286,Highway,Poor,6,40,12,5.7,Evening,Mon,0,0,188,Street Light,Medium
+2023-01-29 04:00:00,399,8.2835,88.5358,Foggy,24.8,89,256,Highway,Good,4,40,87,8.5,Morning,Sat,0,4,1212,Street Light,Medium
+2023-01-29 05:00:00,303,32.5891,79.0354,Rainy,38.8,54,188,Rural,Poor,4,60,180,8.2,Afternoon,Wed,0,8,1839,Dark,High
+2023-01-29 06:00:00,689,13.1153,72.4904,Cloudy,6.2,76,188,City,Fair,2,80,102,1.8,Night,Mon,0,1,921,Dark,Medium
+2023-01-29 07:00:00,104,32.4869,92.3715,Cloudy,37.2,47,169,City,Fair,4,60,210,3.5,Evening,Mon,0,4,1443,Daylight,Low
+2023-01-29 08:00:00,834,33.3006,91.7868,Foggy,29.2,69,189,Rural,Poor,1,60,322,2.6,Night,Tue,0,5,462,Dark,High
+2023-01-29 09:00:00,723,13.9411,87.6041,Foggy,27.5,47,25,Rural,Fair,3,100,242,4.9,Evening,Wed,0,4,1605,Daylight,Medium
+2023-01-29 10:00:00,931,15.4157,76.1503,Cloudy,21.7,37,249,Rural,Good,4,60,274,6.8,Evening,Fri,0,0,137,Street Light,Low
+2023-01-29 11:00:00,219,21.6135,78.5458,Cloudy,16.2,65,282,Highway,Poor,2,60,209,5.1,Morning,Sat,0,3,1575,Dark,Medium
+2023-01-29 12:00:00,499,33.8149,69.8861,Cloudy,40.5,38,245,Rural,Good,1,60,357,7.9,Night,Wed,0,1,426,Dark,Low
+2023-01-29 13:00:00,931,36.3983,89.6082,Snowy,17.0,89,291,Rural,Poor,6,80,56,6.8,Evening,Wed,0,1,1353,Street Light,High
+2023-01-29 14:00:00,662,22.3707,92.2682,Cloudy,35.7,38,137,Residential,Poor,6,60,174,7.3,Evening,Mon,1,1,1847,Daylight,Low
+2023-01-29 15:00:00,294,24.7041,85.6874,Rainy,22.6,61,91,Rural,Good,1,80,186,2.4,Night,Thu,0,3,824,Street Light,Medium
+2023-01-29 16:00:00,552,25.2634,95.248,Rainy,28.0,43,64,Highway,Fair,1,100,221,3.1,Evening,Mon,0,1,456,Dark,Medium
+2023-01-29 17:00:00,160,28.3072,93.301,Foggy,38.9,85,21,Residential,Good,6,100,358,9.2,Night,Thu,0,5,1916,Dark,Medium
+2023-01-29 18:00:00,561,12.0237,90.9221,Cloudy,28.7,89,212,Rural,Fair,2,60,34,4.1,Morning,Sat,0,0,1214,Daylight,Low
+2023-01-29 19:00:00,649,22.7114,85.3957,Cloudy,12.9,43,183,Rural,Good,3,100,222,8.6,Morning,Wed,0,3,1441,Daylight,Medium
+2023-01-29 20:00:00,359,30.7881,84.9161,Rainy,7.5,40,228,Residential,Fair,2,40,33,9.2,Morning,Thu,0,4,1569,Street Light,Medium
+2023-01-29 21:00:00,419,26.8772,74.9862,Rainy,26.7,74,198,City,Poor,6,80,125,6.1,Night,Sun,0,6,185,Dark,High
+2023-01-29 22:00:00,423,15.113,80.1577,Cloudy,24.7,78,150,Rural,Poor,4,40,53,5.3,Evening,Tue,0,8,1155,Dark,Medium
+2023-01-29 23:00:00,736,24.4494,85.3929,Snowy,30.8,58,270,Highway,Good,1,40,128,9.7,Morning,Sun,1,5,157,Dark,Medium
+2023-01-30 00:00:00,904,23.9217,84.7062,Rainy,31.5,54,111,Residential,Fair,1,40,103,3.7,Morning,Mon,0,8,1709,Street Light,Medium
+2023-01-30 01:00:00,987,30.6186,73.7866,Sunny,12.1,92,153,Rural,Good,4,40,185,2.7,Afternoon,Tue,0,2,1760,Daylight,Low
+2023-01-30 02:00:00,331,22.6568,83.7212,Foggy,43.8,67,76,Residential,Fair,3,80,125,4.7,Evening,Fri,0,9,1613,Street Light,Medium
+2023-01-30 03:00:00,251,17.2413,94.3043,Snowy,40.8,60,197,Rural,Good,2,100,258,5.0,Night,Wed,0,3,1673,Dark,Medium
+2023-01-30 04:00:00,503,23.6768,80.9148,Rainy,34.6,48,22,Rural,Good,2,60,361,1.6,Morning,Thu,1,0,1773,Dark,Medium
+2023-01-30 05:00:00,457,21.4925,88.568,Foggy,37.1,54,128,City,Poor,1,100,162,4.0,Evening,Sun,0,5,187,Dark,High
+2023-01-30 06:00:00,146,10.8034,93.2817,Snowy,21.0,65,260,Highway,Fair,4,100,145,7.1,Morning,Fri,1,0,1039,Street Light,Medium
+2023-01-30 07:00:00,712,13.0546,68.5263,Rainy,17.3,67,146,Rural,Good,4,60,399,4.9,Morning,Sat,0,0,810,Dark,Low
+2023-01-30 08:00:00,543,13.7138,70.7486,Snowy,43.8,79,264,City,Poor,3,80,13,1.6,Evening,Tue,0,9,1153,Street Light,High
+2023-01-30 09:00:00,567,18.1852,69.7373,Foggy,7.4,93,59,Rural,Poor,2,40,70,6.0,Evening,Tue,0,8,1639,Dark,Medium
+2023-01-30 10:00:00,558,16.9884,72.9457,Snowy,9.4,90,244,Residential,Fair,2,80,50,5.5,Night,Thu,1,6,1276,Daylight,Medium
+2023-01-30 11:00:00,980,18.5724,92.4392,Rainy,34.3,59,101,Residential,Good,4,60,164,2.5,Afternoon,Wed,1,2,1704,Dark,Medium
+2023-01-30 12:00:00,968,10.877,96.4144,Rainy,22.4,47,254,Residential,Good,6,40,19,1.0,Afternoon,Wed,0,3,1998,Daylight,High
+2023-01-30 13:00:00,972,25.4275,70.8861,Rainy,40.3,98,174,Residential,Good,6,80,332,1.9,Morning,Tue,0,2,763,Dark,Medium
+2023-01-30 14:00:00,690,24.742,70.4937,Cloudy,12.0,48,39,Highway,Poor,4,80,155,6.3,Afternoon,Sat,1,4,229,Street Light,Low
+2023-01-30 15:00:00,610,15.1519,76.4147,Rainy,23.8,32,192,Rural,Poor,6,100,201,9.9,Morning,Thu,0,6,1729,Daylight,High
+2023-01-30 16:00:00,982,11.8327,90.0113,Snowy,42.6,89,102,Rural,Good,2,40,217,5.2,Evening,Mon,0,7,358,Dark,Medium
+2023-01-30 17:00:00,425,28.2368,72.4379,Rainy,16.1,46,38,Residential,Poor,4,100,47,5.7,Evening,Thu,0,3,1982,Dark,Medium
+2023-01-30 18:00:00,981,26.8329,85.1702,Snowy,25.2,43,60,Rural,Poor,1,40,51,4.1,Morning,Thu,0,5,580,Daylight,Medium
+2023-01-30 19:00:00,966,19.4083,69.1505,Sunny,13.9,78,37,Rural,Fair,3,100,63,2.4,Morning,Fri,0,8,877,Dark,Medium
+2023-01-30 20:00:00,540,24.665,78.9914,Cloudy,10.4,47,246,City,Poor,3,60,97,4.3,Morning,Sun,0,0,282,Daylight,Medium
+2023-01-30 21:00:00,874,10.6824,76.3898,Snowy,27.3,37,181,City,Poor,6,40,149,5.3,Evening,Sun,0,8,792,Dark,High
+2023-01-30 22:00:00,515,17.4573,81.7417,Foggy,30.6,53,110,Residential,Fair,4,60,57,5.3,Morning,Tue,0,0,1480,Daylight,Low
+2023-01-30 23:00:00,357,33.4794,95.868,Rainy,8.2,42,34,Highway,Good,3,80,282,1.3,Afternoon,Tue,0,7,402,Dark,Medium
+2023-01-31 00:00:00,631,17.8039,87.6052,Rainy,24.5,57,175,Highway,Fair,3,40,187,3.3,Afternoon,Sat,0,7,851,Street Light,Medium
+2023-01-31 01:00:00,455,14.9349,94.9779,Cloudy,28.8,49,122,Residential,Fair,2,40,29,8.0,Morning,Tue,0,7,720,Daylight,Low
+2023-01-31 02:00:00,546,20.5876,73.4285,Foggy,8.3,90,186,Highway,Good,1,60,97,7.9,Afternoon,Sat,0,3,1874,Dark,Medium
+2023-01-31 03:00:00,359,29.5895,74.9531,Foggy,15.5,74,159,City,Poor,6,60,79,3.0,Morning,Sat,0,2,1040,Dark,Medium
+2023-01-31 04:00:00,861,11.3112,77.2959,Foggy,22.6,45,200,Residential,Fair,2,40,32,6.4,Night,Sun,0,7,1198,Street Light,Medium
+2023-01-31 05:00:00,605,12.394,88.0836,Cloudy,23.7,63,169,Highway,Good,2,80,72,1.2,Morning,Mon,0,2,745,Dark,Low
+2023-01-31 06:00:00,231,23.2646,86.2856,Foggy,16.9,35,262,Highway,Fair,4,40,237,7.9,Night,Fri,1,1,592,Dark,Medium
+2023-01-31 07:00:00,795,10.998,72.5153,Rainy,41.2,67,246,City,Poor,2,40,184,7.4,Night,Thu,0,5,1483,Street Light,High
+2023-01-31 08:00:00,824,11.3572,96.2429,Foggy,44.9,35,92,Rural,Fair,6,60,68,9.4,Night,Sun,0,1,1644,Dark,Low
+2023-01-31 09:00:00,425,17.1652,87.8552,Sunny,33.4,32,68,City,Good,1,80,12,7.2,Afternoon,Tue,0,3,1207,Street Light,Low
+2023-01-31 10:00:00,842,30.4026,87.2345,Sunny,31.6,40,169,City,Fair,3,60,34,4.1,Evening,Thu,0,0,1906,Daylight,Low
+2023-01-31 11:00:00,309,16.5607,70.4046,Snowy,38.1,88,178,Rural,Good,1,40,329,7.2,Afternoon,Fri,0,0,798,Dark,Low
+2023-01-31 12:00:00,560,34.509,69.8629,Cloudy,23.1,58,166,Residential,Poor,3,80,106,4.6,Evening,Sat,0,6,1564,Dark,Medium
+2023-01-31 13:00:00,682,14.7738,81.1531,Foggy,31.7,80,57,Highway,Poor,6,40,190,4.4,Morning,Sat,0,6,291,Dark,Medium
+2023-01-31 14:00:00,788,18.7913,96.7772,Foggy,35.5,91,108,Highway,Fair,6,60,117,2.1,Evening,Mon,0,7,502,Daylight,Medium
+2023-01-31 15:00:00,803,15.0739,96.4159,Snowy,18.9,98,168,Highway,Good,3,40,124,4.5,Morning,Thu,0,3,294,Daylight,Low
+2023-01-31 16:00:00,569,13.9023,87.9283,Foggy,34.6,87,184,Rural,Good,2,40,338,7.5,Evening,Tue,0,5,832,Dark,Medium
+2023-01-31 17:00:00,406,13.921,92.9179,Snowy,17.3,61,132,Residential,Good,2,60,293,1.4,Afternoon,Sat,0,2,494,Street Light,Medium
+2023-01-31 18:00:00,504,11.6145,72.3358,Snowy,43.0,77,226,Rural,Fair,2,60,274,3.3,Evening,Mon,0,4,142,Street Light,Medium
+2023-01-31 19:00:00,965,35.0141,89.2072,Sunny,15.4,97,259,Rural,Poor,3,40,245,2.6,Night,Fri,0,8,1657,Street Light,High
+2023-01-31 20:00:00,949,12.773,92.1537,Foggy,16.0,94,165,Highway,Good,4,40,93,2.9,Night,Sun,0,3,1404,Street Light,Medium
+2023-01-31 21:00:00,290,18.7696,76.5538,Sunny,28.2,78,65,City,Fair,3,40,106,9.2,Morning,Fri,0,1,1606,Daylight,Low
+2023-01-31 22:00:00,779,31.9804,70.0722,Snowy,37.4,73,81,Residential,Poor,2,100,130,5.0,Night,Mon,0,2,393,Dark,Medium
+2023-01-31 23:00:00,990,32.65,86.9641,Sunny,13.0,79,173,Rural,Fair,2,100,128,5.6,Evening,Fri,0,3,546,Dark,Low
+2023-02-01 00:00:00,585,27.9183,93.0251,Sunny,23.8,74,235,Rural,Fair,2,40,333,6.2,Night,Thu,0,9,510,Dark,Medium
+2023-02-01 01:00:00,812,9.4537,91.8753,Snowy,15.8,90,110,Rural,Poor,1,80,127,8.2,Afternoon,Fri,1,0,151,Dark,Medium
+2023-02-01 02:00:00,316,16.457,87.8378,Snowy,12.5,41,21,Highway,Good,3,100,343,9.7,Night,Sat,0,8,1524,Daylight,Medium
+2023-02-01 03:00:00,938,17.0206,73.3863,Cloudy,37.0,36,297,Rural,Good,4,40,208,8.2,Morning,Tue,0,1,341,Daylight,Low
+2023-02-01 04:00:00,457,20.4094,93.302,Cloudy,30.0,65,59,Highway,Good,1,80,250,5.3,Evening,Wed,1,1,1843,Dark,Low
+2023-02-01 05:00:00,173,19.722,75.7269,Snowy,36.0,41,98,City,Fair,3,80,235,9.9,Morning,Mon,0,7,1807,Street Light,Medium
+2023-02-01 06:00:00,731,33.4541,89.3873,Rainy,24.2,82,247,Residential,Poor,4,100,146,7.8,Night,Mon,0,5,1249,Dark,High
+2023-02-01 07:00:00,899,24.3864,90.4661,Sunny,17.0,40,80,City,Good,4,60,362,7.7,Night,Thu,0,5,623,Street Light,Low
+2023-02-01 08:00:00,900,22.168,69.1413,Snowy,5.3,73,143,Highway,Poor,1,80,112,7.9,Evening,Sat,0,9,478,Dark,Medium
+2023-02-01 09:00:00,851,28.6522,72.8048,Sunny,8.5,50,225,City,Good,4,40,23,6.2,Afternoon,Mon,0,8,1712,Daylight,Medium
+2023-02-01 10:00:00,603,15.2703,78.7292,Sunny,26.0,80,101,City,Poor,1,100,216,0.9,Morning,Mon,0,8,1385,Daylight,High
+2023-02-01 11:00:00,943,21.4682,83.6692,Cloudy,23.3,66,46,Highway,Fair,3,40,72,8.7,Morning,Sat,0,7,1988,Daylight,Low
+2023-02-01 12:00:00,555,32.3853,79.692,Sunny,26.5,79,268,Rural,Fair,4,80,116,5.5,Afternoon,Thu,0,5,1159,Dark,Medium
+2023-02-01 13:00:00,733,31.3436,90.6115,Foggy,16.0,40,295,Highway,Poor,3,40,135,5.6,Night,Fri,0,3,1588,Street Light,High
+2023-02-01 14:00:00,649,8.6447,72.5777,Sunny,7.0,35,123,Highway,Fair,1,60,324,7.9,Night,Mon,1,0,223,Daylight,Low
+2023-02-01 15:00:00,341,10.8587,74.2863,Foggy,33.7,34,29,City,Poor,6,40,203,5.3,Night,Thu,0,9,1170,Daylight,Medium
+2023-02-01 16:00:00,618,12.9265,88.9664,Snowy,11.7,95,252,Residential,Poor,6,80,309,8.4,Evening,Sun,1,4,646,Daylight,High
+2023-02-01 17:00:00,864,9.526,93.1396,Cloudy,44.7,87,266,Residential,Poor,4,80,290,3.3,Morning,Mon,0,1,192,Dark,Medium
+2023-02-01 18:00:00,743,25.8347,70.1228,Sunny,40.6,98,276,Highway,Good,3,80,196,5.9,Night,Tue,0,6,1501,Daylight,Medium
+2023-02-01 19:00:00,147,11.6525,95.3496,Cloudy,21.5,47,286,Residential,Poor,1,100,398,5.7,Morning,Fri,0,2,823,Daylight,Medium
+2023-02-01 20:00:00,195,13.4032,83.3506,Sunny,21.3,39,72,Rural,Good,1,80,83,8.1,Evening,Sat,0,6,204,Daylight,Low
+2023-02-01 21:00:00,972,11.3537,75.9993,Foggy,12.1,33,232,Highway,Poor,6,40,49,3.7,Night,Wed,0,6,894,Daylight,High
+2023-02-01 22:00:00,241,8.706,75.823,Sunny,29.7,56,197,City,Fair,3,100,354,4.2,Night,Fri,0,9,795,Street Light,Medium
+2023-02-01 23:00:00,818,13.6576,88.3139,Cloudy,5.7,62,37,City,Poor,1,100,160,8.9,Night,Sat,0,3,783,Dark,Medium
+2023-02-02 00:00:00,104,20.8681,94.7472,Sunny,39.0,88,189,Residential,Fair,2,40,227,7.7,Afternoon,Sun,0,9,1501,Dark,Medium
+2023-02-02 01:00:00,989,27.0119,93.295,Cloudy,36.7,44,33,City,Good,3,60,304,9.5,Afternoon,Thu,0,3,1559,Dark,Low
+2023-02-02 02:00:00,144,30.0131,88.0692,Sunny,7.2,67,209,Rural,Poor,6,60,295,6.3,Afternoon,Mon,0,3,125,Street Light,Medium
+2023-02-02 03:00:00,175,20.9607,88.9218,Cloudy,6.3,99,28,Rural,Poor,1,40,337,4.7,Afternoon,Fri,0,0,1107,Daylight,Low
+2023-02-02 04:00:00,924,32.7974,75.4415,Rainy,12.3,77,37,Highway,Fair,6,40,390,8.3,Morning,Sun,0,2,901,Dark,Low
+2023-02-02 05:00:00,441,12.1109,95.7053,Rainy,14.4,62,193,City,Poor,3,60,21,7.5,Afternoon,Tue,1,4,1563,Street Light,High
+2023-02-02 06:00:00,391,13.3835,73.0034,Sunny,39.0,30,214,Highway,Poor,2,60,252,1.7,Evening,Sun,0,6,704,Daylight,High
+2023-02-02 07:00:00,773,8.0336,83.2302,Cloudy,36.5,30,293,Highway,Good,3,60,171,2.8,Evening,Thu,0,3,101,Daylight,Medium
+2023-02-02 08:00:00,449,16.1854,96.6914,Cloudy,11.3,82,51,Rural,Good,6,40,246,5.1,Evening,Wed,0,6,836,Street Light,Low
+2023-02-02 09:00:00,474,13.6746,94.5785,Rainy,15.6,47,288,Rural,Fair,4,40,20,8.1,Morning,Tue,0,8,750,Street Light,Medium
+2023-02-02 10:00:00,666,30.1559,74.9436,Rainy,6.8,36,219,Rural,Fair,4,80,188,0.9,Evening,Thu,0,5,1496,Dark,High
+2023-02-02 11:00:00,890,31.5696,72.2813,Rainy,19.7,91,23,City,Poor,4,60,300,3.7,Morning,Sat,0,7,1711,Street Light,Medium
+2023-02-02 12:00:00,850,21.2315,70.2142,Cloudy,27.1,80,62,Highway,Poor,4,40,303,5.1,Afternoon,Wed,0,5,1060,Street Light,Medium
+2023-02-02 13:00:00,631,20.3313,95.2356,Cloudy,13.1,61,85,Residential,Good,2,100,353,0.9,Afternoon,Tue,1,1,981,Daylight,Medium
+2023-02-02 14:00:00,843,19.5255,78.4508,Rainy,36.5,70,24,City,Good,3,100,179,9.4,Afternoon,Wed,0,6,293,Street Light,Medium
+2023-02-02 15:00:00,438,33.8052,70.8304,Sunny,41.1,52,201,Residential,Good,2,80,295,2.4,Morning,Fri,0,7,1799,Daylight,Medium
+2023-02-02 16:00:00,132,16.7108,93.3203,Foggy,34.4,37,163,Rural,Poor,1,40,36,3.4,Afternoon,Wed,0,4,1232,Daylight,Medium
+2023-02-02 17:00:00,367,24.1901,96.1768,Sunny,41.0,65,154,Rural,Fair,4,40,171,4.4,Afternoon,Fri,0,6,1357,Dark,Low
+2023-02-02 18:00:00,523,14.3367,86.4312,Cloudy,35.6,67,198,Highway,Fair,4,40,180,3.3,Morning,Sun,0,2,1120,Street Light,Low
+2023-02-02 19:00:00,501,10.7316,79.9423,Foggy,31.0,88,181,Rural,Fair,4,60,46,8.8,Afternoon,Sat,0,2,415,Street Light,Medium
+2023-02-02 20:00:00,215,30.2342,73.1274,Rainy,34.0,64,296,Residential,Fair,6,60,150,5.7,Evening,Wed,0,9,1347,Daylight,Medium
+2023-02-02 21:00:00,163,10.5676,81.799,Cloudy,43.7,93,240,Highway,Poor,6,40,103,6.2,Evening,Mon,0,5,1656,Dark,Medium
+2023-02-02 22:00:00,574,26.5013,96.2087,Snowy,40.1,80,218,Highway,Fair,1,100,328,1.4,Night,Sat,1,5,133,Street Light,High
+2023-02-02 23:00:00,566,35.6747,76.8893,Rainy,12.9,44,287,Highway,Good,4,80,42,8.7,Evening,Wed,1,1,1283,Dark,Medium
+2023-02-03 00:00:00,557,29.9675,71.1961,Sunny,35.7,55,299,Rural,Poor,1,100,53,2.8,Evening,Tue,1,0,195,Street Light,High
+2023-02-03 01:00:00,871,25.7059,93.0445,Cloudy,14.1,94,251,City,Good,6,40,300,8.1,Night,Wed,1,2,176,Daylight,Low
+2023-02-03 02:00:00,337,19.7729,89.1428,Cloudy,42.7,87,124,Highway,Poor,1,100,23,3.9,Night,Sun,1,2,752,Daylight,Medium
+2023-02-03 03:00:00,601,18.1952,83.3493,Snowy,30.5,77,145,City,Fair,1,40,214,9.0,Morning,Thu,0,4,1561,Street Light,Low
+2023-02-03 04:00:00,734,14.9642,86.272,Foggy,19.7,83,186,Residential,Fair,3,40,70,8.3,Night,Fri,0,7,1339,Dark,Medium
+2023-02-03 05:00:00,637,9.1804,73.9161,Sunny,12.9,71,291,Rural,Good,3,80,312,5.9,Afternoon,Sun,0,1,1577,Daylight,Low
+2023-02-03 06:00:00,186,36.3222,76.9309,Foggy,10.6,45,65,Rural,Poor,1,100,76,9.7,Night,Wed,0,2,1850,Daylight,Medium
+2023-02-03 07:00:00,909,10.644,70.5314,Snowy,36.2,78,166,Residential,Poor,6,100,176,2.0,Afternoon,Sat,0,1,1298,Daylight,High
+2023-02-03 08:00:00,952,12.9735,71.5489,Cloudy,35.2,43,49,Residential,Fair,2,80,112,1.9,Afternoon,Wed,0,0,815,Daylight,Low
+2023-02-03 09:00:00,354,22.243,85.2816,Sunny,40.1,91,117,Rural,Poor,3,80,179,2.9,Morning,Tue,0,1,1688,Daylight,Medium
+2023-02-03 10:00:00,859,10.7419,91.1498,Foggy,17.7,51,138,City,Good,4,40,309,7.2,Evening,Mon,0,0,148,Dark,Low
+2023-02-03 11:00:00,891,36.1004,87.0531,Foggy,23.5,62,81,Rural,Good,4,80,199,3.6,Afternoon,Mon,0,4,286,Street Light,Low
+2023-02-03 12:00:00,723,9.2799,81.081,Cloudy,28.1,64,292,Residential,Good,6,100,334,5.0,Afternoon,Tue,0,4,1920,Daylight,Medium
+2023-02-03 13:00:00,119,28.0053,76.1173,Cloudy,34.6,39,47,Highway,Fair,1,40,242,4.7,Morning,Wed,0,5,1865,Dark,Low
+2023-02-03 14:00:00,139,18.8549,87.6779,Foggy,16.8,95,131,Highway,Good,1,100,252,7.3,Morning,Tue,0,9,907,Street Light,Medium
+2023-02-03 15:00:00,957,11.2237,70.1341,Rainy,30.9,33,116,Rural,Fair,1,80,274,9.4,Evening,Wed,0,9,344,Daylight,Medium
+2023-02-03 16:00:00,949,15.828,81.6549,Cloudy,40.0,33,139,Residential,Fair,6,80,282,6.5,Afternoon,Fri,0,8,967,Daylight,Low
+2023-02-03 17:00:00,922,28.721,82.3418,Cloudy,36.3,84,78,Rural,Fair,2,100,279,1.7,Afternoon,Fri,0,4,707,Dark,Medium
+2023-02-03 18:00:00,100,17.3767,71.3687,Foggy,16.0,91,249,Highway,Poor,1,40,348,5.3,Morning,Tue,0,5,1604,Dark,High
+2023-02-03 19:00:00,801,30.5459,82.3988,Rainy,12.6,78,140,Highway,Fair,3,60,33,4.8,Morning,Sat,1,3,1831,Street Light,Low
+2023-02-03 20:00:00,744,13.3113,89.4774,Sunny,28.3,73,72,Rural,Fair,3,100,148,4.2,Evening,Wed,1,5,1943,Dark,Low
+2023-02-03 21:00:00,508,9.8402,72.2311,Sunny,7.1,47,281,City,Poor,4,60,207,5.7,Night,Fri,0,2,1994,Dark,Medium
+2023-02-03 22:00:00,485,21.7858,91.9502,Sunny,12.4,67,215,City,Good,6,40,296,7.0,Evening,Thu,1,6,141,Street Light,Medium
+2023-02-03 23:00:00,772,24.0246,77.7206,Sunny,20.5,92,35,Rural,Good,4,40,144,7.7,Afternoon,Sat,0,2,939,Dark,Low
+2023-02-04 00:00:00,223,21.3928,84.0004,Cloudy,6.0,44,294,Residential,Poor,1,40,349,3.7,Night,Tue,0,3,1372,Street Light,Medium
+2023-02-04 01:00:00,696,35.4446,94.4107,Foggy,21.2,97,183,Residential,Good,1,60,321,9.8,Afternoon,Sun,0,4,1284,Daylight,Medium
+2023-02-04 02:00:00,438,18.0148,87.9396,Rainy,29.6,64,83,Residential,Poor,6,40,37,0.6,Morning,Wed,0,7,1174,Dark,High
+2023-02-04 03:00:00,777,27.0718,68.2832,Foggy,26.7,92,230,Highway,Good,3,40,268,5.9,Afternoon,Tue,1,4,471,Dark,Medium
+2023-02-04 04:00:00,728,31.0634,78.9457,Foggy,26.7,38,250,Residential,Fair,6,80,174,5.2,Night,Wed,0,7,641,Street Light,Medium
+2023-02-04 05:00:00,685,32.1636,69.4455,Snowy,34.5,62,146,Residential,Poor,2,100,275,0.8,Night,Sat,0,1,391,Daylight,High
+2023-02-04 06:00:00,175,35.8148,93.2726,Rainy,43.4,97,20,Rural,Fair,6,60,124,2.2,Night,Tue,0,7,687,Dark,Medium
+2023-02-04 07:00:00,165,9.8916,89.9543,Foggy,22.4,31,181,Highway,Good,1,80,39,2.4,Evening,Thu,0,1,164,Daylight,High
+2023-02-04 08:00:00,349,16.8517,91.7666,Foggy,36.1,94,97,City,Good,3,60,21,2.0,Morning,Tue,0,4,192,Dark,Medium
+2023-02-04 09:00:00,853,19.385,77.4838,Cloudy,24.5,96,79,City,Fair,4,40,237,3.2,Evening,Sat,0,8,313,Daylight,Low
+2023-02-04 10:00:00,686,31.0119,83.7205,Sunny,24.5,75,98,City,Fair,2,80,84,3.4,Afternoon,Mon,0,4,196,Street Light,Low
+2023-02-04 11:00:00,685,19.0116,80.8627,Foggy,20.2,33,246,City,Poor,6,80,335,8.2,Afternoon,Wed,1,5,203,Daylight,High
+2023-02-04 12:00:00,226,26.251,75.0797,Snowy,23.2,33,226,Highway,Fair,2,80,17,6.8,Afternoon,Tue,0,7,116,Street Light,Medium
+2023-02-04 13:00:00,892,12.2845,78.6441,Sunny,27.0,59,135,Residential,Good,1,80,321,1.2,Evening,Fri,1,6,1710,Street Light,Medium
+2023-02-04 14:00:00,196,19.0186,89.0396,Sunny,13.2,51,221,Rural,Good,2,80,308,10.0,Afternoon,Mon,0,8,750,Daylight,Medium
+2023-02-04 15:00:00,204,20.5781,85.845,Rainy,38.2,61,254,Rural,Fair,1,60,320,9.6,Afternoon,Tue,1,6,774,Street Light,Medium
+2023-02-04 16:00:00,421,24.2925,91.6477,Rainy,29.5,61,27,City,Good,2,80,236,5.2,Night,Wed,0,3,1121,Dark,Low
+2023-02-04 17:00:00,775,35.3257,73.7834,Rainy,32.6,46,272,Rural,Good,3,100,395,1.2,Night,Thu,1,8,1348,Street Light,High
+2023-02-04 18:00:00,377,11.4007,76.7994,Rainy,8.7,31,156,Rural,Good,1,80,98,2.9,Morning,Wed,0,7,129,Street Light,Medium
+2023-02-04 19:00:00,843,15.1847,79.7085,Snowy,16.2,65,79,Residential,Poor,2,100,333,4.4,Evening,Sat,0,2,1318,Dark,Medium
+2023-02-04 20:00:00,240,28.1792,71.0332,Snowy,27.0,82,296,City,Good,2,40,105,9.1,Night,Wed,0,3,674,Daylight,Medium
+2023-02-04 21:00:00,138,20.7909,84.7278,Rainy,33.5,31,219,Residential,Good,3,40,72,3.4,Afternoon,Tue,0,7,1348,Dark,Medium
+2023-02-04 22:00:00,875,20.0735,70.8826,Rainy,14.5,81,290,Residential,Poor,1,100,279,7.6,Morning,Fri,0,4,619,Street Light,High
+2023-02-04 23:00:00,330,15.6755,83.7051,Cloudy,17.4,93,20,Highway,Poor,6,100,283,7.2,Afternoon,Sat,0,7,1761,Dark,Medium
+2023-02-05 00:00:00,866,15.3261,91.9253,Rainy,7.6,94,121,Highway,Poor,6,60,86,0.6,Evening,Mon,0,3,351,Street Light,High
+2023-02-05 01:00:00,295,36.6281,94.0269,Snowy,19.0,38,68,Residential,Poor,6,60,161,8.4,Night,Wed,0,2,1102,Dark,Medium
+2023-02-05 02:00:00,698,30.0583,85.1822,Snowy,30.4,55,150,Rural,Good,4,60,97,7.6,Evening,Tue,0,7,972,Street Light,Medium
+2023-02-05 03:00:00,470,13.2786,79.7584,Rainy,9.1,62,197,Residential,Fair,2,60,319,9.4,Evening,Mon,0,0,1280,Dark,Medium
+2023-02-05 04:00:00,867,31.8847,89.673,Snowy,42.1,63,57,Highway,Good,3,60,365,4.3,Morning,Sat,0,4,212,Dark,Low
+2023-02-05 05:00:00,990,21.8758,69.8713,Cloudy,22.0,82,60,Rural,Poor,3,80,25,2.1,Afternoon,Tue,0,8,982,Street Light,Medium
+2023-02-05 06:00:00,973,10.9103,81.9248,Cloudy,5.9,33,292,Highway,Good,1,80,379,5.9,Afternoon,Sun,0,1,936,Street Light,Low
+2023-02-05 07:00:00,412,23.5059,75.5569,Sunny,34.8,32,33,Rural,Good,1,40,93,6.5,Afternoon,Thu,0,5,1452,Daylight,Low
+2023-02-05 08:00:00,826,10.8702,95.5708,Sunny,14.1,45,121,Residential,Poor,2,40,399,2.2,Morning,Sat,0,0,1424,Daylight,Medium
+2023-02-05 09:00:00,684,31.3136,74.8291,Sunny,28.1,92,68,Rural,Good,6,100,20,7.3,Night,Mon,0,8,120,Daylight,Low
+2023-02-05 10:00:00,773,20.3856,88.2959,Rainy,36.7,97,191,Residential,Poor,6,60,313,2.9,Night,Mon,1,6,1076,Daylight,High
+2023-02-05 11:00:00,445,33.0145,96.2394,Foggy,14.6,70,160,Residential,Poor,4,60,51,7.1,Afternoon,Tue,0,4,231,Daylight,Medium
+2023-02-05 12:00:00,929,18.1465,80.7969,Sunny,34.0,98,37,Residential,Poor,6,40,333,4.6,Night,Sat,0,8,1877,Street Light,Medium
+2023-02-05 13:00:00,714,19.0154,80.3429,Foggy,30.0,97,154,Rural,Poor,1,40,161,9.5,Night,Wed,0,2,743,Daylight,Medium
+2023-02-05 14:00:00,599,20.6523,87.4868,Sunny,20.6,80,68,City,Good,3,40,152,3.5,Night,Wed,0,3,1467,Dark,Low
+2023-02-05 15:00:00,221,11.1818,88.0459,Foggy,41.7,39,153,City,Good,4,40,136,6.8,Morning,Wed,0,3,964,Street Light,Low
+2023-02-05 16:00:00,414,32.4891,78.4648,Rainy,20.0,71,36,Highway,Good,4,40,296,2.7,Night,Fri,0,0,1922,Street Light,Medium
+2023-02-05 17:00:00,562,28.925,89.8127,Sunny,37.6,35,185,Rural,Poor,2,60,22,3.3,Morning,Tue,1,7,478,Street Light,Medium
+2023-02-05 18:00:00,313,30.7913,73.8372,Sunny,25.3,47,168,Rural,Good,1,60,53,9.7,Night,Fri,0,2,1761,Daylight,Low
+2023-02-05 19:00:00,616,29.2498,83.0452,Cloudy,20.2,36,108,Residential,Fair,2,40,357,6.7,Night,Thu,1,5,1510,Daylight,Low
+2023-02-05 20:00:00,295,18.7914,72.1798,Cloudy,15.4,99,30,City,Poor,6,60,263,6.3,Morning,Tue,0,7,863,Daylight,Medium
+2023-02-05 21:00:00,347,26.1377,84.2895,Rainy,39.9,41,200,Highway,Good,1,80,354,5.7,Evening,Fri,1,0,1398,Dark,Medium
+2023-02-05 22:00:00,340,22.1988,81.8054,Foggy,23.2,84,136,Rural,Poor,4,100,197,7.2,Night,Sat,0,2,1762,Street Light,Medium
+2023-02-05 23:00:00,888,19.019,81.9175,Rainy,13.9,75,242,Highway,Poor,1,80,141,9.1,Morning,Sat,1,0,1730,Dark,High
+2023-02-06 00:00:00,889,13.2827,68.5297,Sunny,23.0,44,96,Highway,Poor,6,60,257,1.8,Evening,Mon,0,6,1204,Daylight,Medium
+2023-02-06 01:00:00,192,12.4856,86.3807,Sunny,5.2,54,221,Highway,Poor,6,80,221,5.9,Afternoon,Sat,0,1,330,Daylight,Medium
+2023-02-06 02:00:00,583,23.5422,71.9602,Foggy,32.3,88,291,Rural,Good,6,80,303,5.0,Morning,Wed,0,8,985,Daylight,Medium
+2023-02-06 03:00:00,533,36.5345,89.4587,Foggy,37.8,62,201,City,Fair,3,60,396,4.8,Evening,Tue,0,4,186,Daylight,Medium
+2023-02-06 04:00:00,147,12.2417,70.6617,Rainy,21.1,34,191,Highway,Fair,4,80,200,7.5,Afternoon,Mon,0,1,1925,Daylight,Medium
+2023-02-06 05:00:00,224,23.5163,74.7666,Foggy,10.3,39,281,Residential,Good,1,40,236,5.1,Afternoon,Sun,0,6,102,Daylight,Medium
+2023-02-06 06:00:00,511,28.6166,77.7183,Sunny,28.0,59,35,Residential,Good,6,100,98,2.6,Morning,Sun,1,0,992,Dark,Medium
+2023-02-06 07:00:00,589,8.6323,87.3371,Snowy,18.8,51,69,Residential,Fair,2,40,124,9.4,Night,Fri,0,0,133,Dark,Low
+2023-02-06 08:00:00,754,13.7038,74.5206,Snowy,43.4,71,255,Residential,Good,4,40,244,1.1,Morning,Sun,0,1,1428,Daylight,High
+2023-02-06 09:00:00,711,11.6157,69.2596,Sunny,21.4,67,91,Rural,Fair,3,40,170,5.3,Morning,Fri,0,9,176,Daylight,Low
+2023-02-06 10:00:00,199,9.9804,86.533,Snowy,30.8,81,268,Residential,Poor,3,60,216,7.7,Evening,Mon,0,9,199,Street Light,High
+2023-02-06 11:00:00,969,33.4978,90.303,Sunny,10.3,45,211,City,Poor,3,60,246,9.0,Evening,Thu,0,8,1041,Dark,Medium
+2023-02-06 12:00:00,393,21.1839,89.3981,Rainy,24.8,53,42,Highway,Good,2,100,14,5.2,Morning,Wed,0,7,1065,Dark,Medium
+2023-02-06 13:00:00,491,9.9166,80.7951,Sunny,44.6,66,98,Rural,Poor,3,80,311,8.9,Morning,Tue,0,1,797,Street Light,Low
+2023-02-06 14:00:00,277,32.9148,85.6713,Foggy,42.3,89,134,Highway,Good,2,60,174,8.8,Morning,Wed,0,5,294,Dark,Medium
+2023-02-06 15:00:00,620,14.6151,68.7029,Foggy,7.8,44,297,Highway,Poor,3,60,284,0.7,Night,Tue,1,1,1509,Dark,High
+2023-02-06 16:00:00,489,19.0442,94.9737,Cloudy,12.0,99,236,Highway,Fair,2,100,384,1.1,Night,Wed,0,3,407,Dark,Medium
+2023-02-06 17:00:00,676,33.8635,74.0078,Sunny,13.2,86,21,Residential,Good,3,100,296,0.8,Afternoon,Tue,0,9,593,Daylight,Medium
+2023-02-06 18:00:00,584,35.2658,91.7368,Cloudy,16.0,55,154,Residential,Fair,6,60,15,3.8,Afternoon,Sat,0,6,1578,Street Light,Low
+2023-02-06 19:00:00,889,34.0732,89.7688,Foggy,32.5,90,154,City,Poor,4,40,396,2.1,Afternoon,Tue,0,0,354,Dark,High
+2023-02-06 20:00:00,594,27.8211,78.9287,Sunny,16.6,53,117,Residential,Fair,2,60,34,6.0,Morning,Thu,0,2,1538,Street Light,Low
+2023-02-06 21:00:00,163,8.1428,90.282,Foggy,29.5,39,237,City,Good,6,40,275,1.4,Morning,Mon,0,1,1507,Dark,High
+2023-02-06 22:00:00,858,32.8887,87.6006,Rainy,25.2,55,267,Highway,Fair,6,40,93,8.1,Evening,Mon,1,2,282,Street Light,Medium
+2023-02-06 23:00:00,836,30.1089,88.0264,Rainy,28.0,86,80,City,Fair,1,100,146,3.2,Afternoon,Thu,0,8,1823,Street Light,Medium
+2023-02-07 00:00:00,931,34.6312,83.0762,Snowy,33.0,62,268,City,Good,3,40,27,5.6,Afternoon,Fri,1,4,1634,Street Light,Medium
+2023-02-07 01:00:00,529,18.7267,89.1858,Rainy,31.1,30,121,Highway,Fair,4,40,185,2.8,Night,Sun,0,3,1604,Dark,Medium
+2023-02-07 02:00:00,168,26.9281,74.2659,Rainy,7.3,47,289,City,Good,4,100,266,9.9,Evening,Wed,1,8,661,Dark,High
+2023-02-07 03:00:00,474,26.315,78.194,Foggy,10.6,42,265,City,Poor,1,80,151,9.8,Morning,Thu,0,5,1555,Street Light,High
+2023-02-07 04:00:00,773,18.9169,71.7953,Sunny,28.6,50,222,Rural,Poor,1,100,141,4.1,Evening,Sat,0,7,1626,Street Light,High
+2023-02-07 05:00:00,112,19.9388,77.2015,Sunny,29.3,84,250,Rural,Good,6,80,124,0.9,Morning,Sun,0,5,1965,Dark,Medium
+2023-02-07 06:00:00,156,36.5336,82.1275,Cloudy,5.8,86,89,Residential,Good,6,80,38,5.0,Night,Thu,0,7,1330,Dark,Low
+2023-02-07 07:00:00,672,31.4456,91.0817,Snowy,11.0,57,55,Residential,Poor,2,80,299,9.2,Morning,Tue,0,4,1000,Dark,Medium
+2023-02-07 08:00:00,859,34.5981,92.9262,Cloudy,37.3,60,26,Residential,Poor,1,60,135,6.8,Afternoon,Sat,0,9,686,Street Light,Medium
+2023-02-07 09:00:00,608,9.9607,82.0203,Foggy,25.8,88,243,Highway,Good,4,80,268,1.5,Morning,Mon,0,2,531,Street Light,High
+2023-02-07 10:00:00,414,30.5219,69.1628,Rainy,27.2,88,294,Highway,Fair,2,40,203,8.8,Night,Tue,0,6,1387,Street Light,Medium
+2023-02-07 11:00:00,808,19.7434,90.9886,Cloudy,16.6,31,168,Highway,Fair,6,100,295,8.0,Morning,Fri,0,7,1475,Street Light,Low
+2023-02-07 12:00:00,529,34.2799,77.3554,Sunny,11.2,82,219,Highway,Poor,2,40,113,4.4,Evening,Mon,0,8,1973,Street Light,Medium
+2023-02-07 13:00:00,111,11.5227,73.1361,Foggy,6.0,94,247,Rural,Good,6,40,372,4.9,Night,Fri,0,5,672,Dark,Medium
+2023-02-07 14:00:00,724,32.6567,80.2587,Sunny,28.5,69,33,Highway,Good,6,100,302,8.2,Afternoon,Sat,0,2,586,Dark,Low
+2023-02-07 15:00:00,527,32.5604,87.378,Cloudy,43.7,46,70,Highway,Poor,3,40,311,2.9,Evening,Wed,1,1,1754,Daylight,Medium
+2023-02-07 16:00:00,605,32.2635,92.6599,Cloudy,34.4,35,272,Residential,Poor,3,80,170,2.0,Evening,Fri,0,8,106,Dark,High
+2023-02-07 17:00:00,719,31.6772,88.537,Sunny,41.6,56,239,Highway,Good,2,40,25,2.3,Morning,Sun,0,7,1025,Daylight,Medium
+2023-02-07 18:00:00,570,21.093,77.1661,Foggy,30.0,52,71,City,Good,1,80,15,5.4,Evening,Fri,0,6,399,Street Light,Medium
+2023-02-07 19:00:00,873,20.0212,85.1697,Foggy,23.8,30,163,Residential,Fair,6,80,232,4.3,Night,Sat,0,6,1796,Dark,Medium
+2023-02-07 20:00:00,958,28.2139,68.9483,Foggy,39.7,53,64,Residential,Good,1,40,332,3.3,Morning,Fri,0,1,1688,Street Light,Low
+2023-02-07 21:00:00,940,22.5399,83.8656,Sunny,16.0,77,149,Highway,Good,4,100,195,4.2,Morning,Mon,0,0,1819,Daylight,Low
+2023-02-07 22:00:00,258,8.1728,80.8336,Sunny,37.5,75,190,Residential,Good,3,40,250,4.9,Morning,Thu,0,9,653,Dark,Medium
+2023-02-07 23:00:00,786,25.668,83.0189,Foggy,16.5,31,92,City,Fair,4,60,152,6.3,Morning,Wed,0,9,444,Daylight,Medium
+2023-02-08 00:00:00,275,26.9516,78.0391,Cloudy,27.2,45,27,Highway,Fair,2,80,101,1.9,Evening,Thu,1,8,995,Daylight,Medium
+2023-02-08 01:00:00,138,25.6932,72.6084,Rainy,28.2,35,298,City,Fair,2,100,366,7.1,Evening,Tue,0,7,393,Dark,High
+2023-02-08 02:00:00,771,28.4262,81.8983,Cloudy,6.3,45,280,Highway,Poor,6,100,53,1.0,Afternoon,Sat,0,2,622,Daylight,High
+2023-02-08 03:00:00,463,9.9979,71.7982,Foggy,15.9,74,281,Rural,Poor,2,40,54,5.7,Evening,Wed,0,8,141,Street Light,High
+2023-02-08 04:00:00,376,31.6825,93.6669,Snowy,19.3,88,255,Rural,Good,6,80,141,6.6,Morning,Tue,1,3,1475,Daylight,Medium
+2023-02-08 05:00:00,692,17.3321,81.4069,Cloudy,13.5,77,132,Residential,Poor,4,80,254,3.6,Evening,Tue,0,7,1103,Street Light,Medium
+2023-02-08 06:00:00,540,26.4723,74.056,Foggy,16.2,31,48,Rural,Fair,6,60,230,5.5,Evening,Wed,0,9,1055,Dark,Medium
+2023-02-08 07:00:00,446,31.6934,81.9984,Foggy,12.2,42,116,Rural,Fair,4,60,216,1.7,Evening,Fri,0,9,1469,Street Light,Medium
+2023-02-08 08:00:00,334,26.0911,76.3034,Sunny,6.2,42,98,Residential,Poor,2,40,143,3.2,Morning,Thu,0,7,407,Street Light,Medium
+2023-02-08 09:00:00,626,33.3438,75.1943,Cloudy,22.1,71,182,City,Fair,4,60,82,4.7,Evening,Fri,0,3,970,Dark,Low
+2023-02-08 10:00:00,418,34.0788,78.6676,Sunny,27.2,65,70,Highway,Good,1,40,335,7.0,Evening,Thu,1,5,833,Street Light,Low
+2023-02-08 11:00:00,976,19.1626,88.4203,Snowy,7.7,40,40,City,Fair,1,100,384,4.4,Morning,Tue,0,5,790,Daylight,Medium
+2023-02-08 12:00:00,736,18.7419,88.6572,Foggy,18.2,82,285,Highway,Fair,6,40,193,3.3,Evening,Wed,0,5,1750,Dark,Medium
+2023-02-08 13:00:00,194,14.2153,92.0718,Snowy,25.8,39,248,Highway,Poor,3,80,340,3.3,Evening,Wed,0,4,1734,Dark,High
+2023-02-08 14:00:00,603,14.3452,83.7167,Sunny,40.6,35,40,Residential,Good,3,100,267,2.0,Night,Tue,0,3,855,Daylight,Medium
+2023-02-08 15:00:00,518,31.5426,89.0189,Cloudy,44.0,36,257,Rural,Poor,4,80,201,3.6,Evening,Sun,1,8,1879,Daylight,Medium
+2023-02-08 16:00:00,642,8.0544,73.3344,Snowy,28.4,41,185,Highway,Fair,1,40,142,3.4,Night,Wed,0,9,899,Daylight,Medium
+2023-02-08 17:00:00,366,22.6416,91.5461,Sunny,15.3,89,206,Rural,Poor,3,80,330,8.0,Evening,Mon,0,7,832,Daylight,Medium
+2023-02-08 18:00:00,754,14.0366,90.6645,Cloudy,12.9,56,260,Rural,Poor,3,60,47,0.9,Evening,Tue,0,8,1216,Street Light,High
+2023-02-08 19:00:00,952,8.7551,78.6514,Cloudy,28.0,78,34,City,Good,3,40,298,6.7,Night,Sat,0,8,1788,Street Light,Low
+2023-02-08 20:00:00,229,16.1064,81.2663,Rainy,23.5,80,26,Residential,Poor,1,40,233,1.2,Night,Fri,1,4,676,Daylight,High
+2023-02-08 21:00:00,844,25.5743,93.9138,Rainy,7.9,60,229,Rural,Fair,6,100,382,5.5,Evening,Sat,1,4,1034,Daylight,Medium
+2023-02-08 22:00:00,681,14.3527,77.7506,Sunny,37.6,84,154,City,Good,4,40,159,9.1,Afternoon,Thu,0,7,179,Street Light,Low
+2023-02-08 23:00:00,322,13.9691,74.5011,Cloudy,7.6,36,49,Highway,Fair,2,60,183,4.3,Night,Sun,0,6,1776,Daylight,Low
+2023-02-09 00:00:00,348,13.9947,90.2971,Cloudy,40.1,72,232,Residential,Fair,1,60,32,9.5,Night,Wed,0,7,167,Dark,Medium
+2023-02-09 01:00:00,642,36.4659,86.2714,Foggy,25.9,75,124,Rural,Fair,2,100,149,5.8,Morning,Wed,0,1,1852,Daylight,Medium
+2023-02-09 02:00:00,793,9.6786,73.4033,Snowy,21.8,69,74,City,Good,1,60,26,2.3,Morning,Wed,0,1,1102,Daylight,Medium
+2023-02-09 03:00:00,940,23.4312,91.7797,Foggy,34.5,51,168,Residential,Poor,1,40,97,6.0,Morning,Tue,0,6,918,Daylight,Medium
+2023-02-09 04:00:00,485,15.6738,94.4232,Snowy,26.6,30,138,Highway,Poor,4,40,390,10.0,Afternoon,Sat,0,2,653,Daylight,Medium
+2023-02-09 05:00:00,949,15.1371,88.5894,Sunny,10.9,78,224,Residential,Good,4,100,187,8.8,Night,Wed,0,4,1555,Street Light,Medium
+2023-02-09 06:00:00,375,16.0188,87.5665,Snowy,38.4,38,242,Rural,Good,6,60,211,3.2,Night,Fri,1,5,1102,Street Light,Medium
+2023-02-09 07:00:00,691,20.1536,69.7863,Foggy,31.7,74,133,City,Good,4,80,246,1.8,Evening,Fri,0,6,201,Dark,Medium
+2023-02-09 08:00:00,224,27.8113,96.0218,Rainy,5.7,82,199,City,Poor,1,100,393,8.9,Morning,Sat,0,7,1954,Street Light,High
+2023-02-09 09:00:00,181,18.0916,80.8687,Foggy,42.2,77,280,Highway,Fair,3,100,394,3.0,Evening,Mon,0,7,136,Street Light,High
+2023-02-09 10:00:00,916,31.5636,95.5821,Rainy,32.8,64,227,Rural,Good,2,40,196,2.4,Night,Sat,0,9,506,Dark,High
+2023-02-09 11:00:00,526,28.5362,71.4823,Cloudy,37.6,53,275,City,Fair,6,80,131,9.4,Afternoon,Fri,0,5,1223,Daylight,Medium
+2023-02-09 12:00:00,828,36.8005,93.4813,Sunny,13.4,34,47,Highway,Good,4,60,195,3.5,Afternoon,Wed,1,3,293,Street Light,Low
+2023-02-09 13:00:00,566,25.394,92.0278,Foggy,23.8,62,118,Rural,Good,2,80,163,3.6,Morning,Fri,0,4,555,Dark,Low
+2023-02-09 14:00:00,191,34.6955,74.6437,Snowy,8.1,51,124,Rural,Good,1,80,77,2.9,Morning,Sat,0,6,1352,Dark,Medium
+2023-02-09 15:00:00,430,12.1215,88.1733,Sunny,7.3,84,204,Rural,Poor,6,100,78,8.1,Evening,Sat,0,4,142,Street Light,Medium
+2023-02-09 16:00:00,209,31.5203,88.1015,Cloudy,18.2,55,78,Rural,Fair,3,40,25,7.8,Night,Mon,0,7,1881,Dark,Low
+2023-02-09 17:00:00,853,8.7701,93.7129,Sunny,36.9,43,195,Highway,Fair,2,100,33,0.8,Morning,Tue,0,0,1050,Dark,Medium
+2023-02-09 18:00:00,207,14.6451,95.0132,Sunny,41.3,40,191,Residential,Good,1,100,339,9.8,Evening,Mon,0,3,1685,Daylight,Medium
+2023-02-09 19:00:00,295,21.5009,73.3252,Foggy,30.5,89,21,Highway,Good,3,80,35,0.6,Morning,Mon,1,8,1495,Daylight,Medium
+2023-02-09 20:00:00,993,33.9293,93.2961,Rainy,11.7,46,35,Residential,Poor,6,100,230,0.7,Night,Thu,0,4,374,Dark,High
+2023-02-09 21:00:00,666,31.6074,95.7758,Snowy,35.7,61,51,City,Good,3,100,48,2.6,Evening,Thu,0,6,312,Street Light,High
+2023-02-09 22:00:00,281,14.6994,78.5315,Cloudy,14.3,72,230,Residential,Fair,2,40,395,5.5,Night,Sat,1,4,758,Street Light,Low
+2023-02-09 23:00:00,808,8.9158,96.0088,Foggy,36.0,67,48,Residential,Fair,2,60,305,0.7,Night,Sat,0,7,1072,Daylight,Medium
+2023-02-10 00:00:00,669,29.8504,76.0416,Foggy,21.8,40,142,Rural,Fair,1,60,26,6.1,Afternoon,Wed,0,1,817,Daylight,Low
+2023-02-10 01:00:00,456,21.3909,92.2209,Snowy,28.4,73,139,Highway,Good,4,80,178,6.8,Evening,Mon,0,4,1697,Daylight,Low
+2023-02-10 02:00:00,172,21.9016,71.4409,Foggy,31.5,86,188,Rural,Poor,3,60,152,2.8,Morning,Sun,0,9,176,Street Light,High
+2023-02-10 03:00:00,215,22.3091,75.3998,Sunny,29.5,97,204,Residential,Fair,3,80,386,0.7,Morning,Tue,0,2,423,Street Light,Medium
+2023-02-10 04:00:00,144,23.1785,92.9354,Snowy,38.0,39,256,Residential,Poor,4,100,265,1.0,Afternoon,Fri,0,9,1248,Street Light,High
+2023-02-10 05:00:00,963,24.1999,81.0677,Cloudy,25.1,56,146,Residential,Good,4,40,135,4.2,Evening,Thu,1,0,856,Daylight,Low
+2023-02-10 06:00:00,942,9.0666,76.8386,Cloudy,8.5,61,162,Rural,Good,3,80,224,2.4,Night,Fri,0,8,1206,Dark,Medium
+2023-02-10 07:00:00,750,14.9716,94.735,Snowy,26.8,79,43,Residential,Good,6,40,261,9.6,Evening,Thu,0,5,977,Daylight,Medium
+2023-02-10 08:00:00,803,19.7232,75.3583,Snowy,16.5,95,226,Highway,Poor,6,80,321,4.4,Evening,Sat,0,3,291,Dark,High
+2023-02-10 09:00:00,383,15.6916,69.409,Snowy,23.7,57,213,City,Poor,2,100,119,7.1,Night,Fri,0,8,1766,Daylight,High
+2023-02-10 10:00:00,101,33.0278,96.8218,Cloudy,31.9,80,195,Highway,Good,1,80,368,5.1,Night,Mon,0,8,797,Dark,Medium
+2023-02-10 11:00:00,984,14.7052,95.1445,Foggy,36.7,69,294,Highway,Fair,6,80,81,6.4,Evening,Wed,0,3,680,Dark,Medium
+2023-02-10 12:00:00,873,15.5865,70.6215,Rainy,29.9,55,171,Rural,Good,6,80,297,6.8,Night,Sat,0,1,1546,Dark,Low
+2023-02-10 13:00:00,553,27.1938,92.0533,Cloudy,37.9,68,142,Rural,Fair,6,40,229,9.8,Night,Thu,0,2,909,Dark,Low
+2023-02-10 14:00:00,226,9.6314,91.108,Cloudy,17.1,84,131,Rural,Fair,6,80,155,6.6,Afternoon,Wed,0,7,441,Daylight,Low
+2023-02-10 15:00:00,629,15.3971,93.8602,Cloudy,11.4,72,183,Residential,Good,6,100,126,9.7,Evening,Tue,0,0,186,Street Light,Medium
+2023-02-10 16:00:00,776,18.3963,85.6901,Snowy,22.0,52,273,Rural,Good,4,100,147,5.2,Afternoon,Mon,0,0,368,Dark,Medium
+2023-02-10 17:00:00,784,19.0776,75.5432,Rainy,37.1,99,111,Highway,Poor,2,80,81,3.8,Night,Sat,0,9,174,Daylight,Medium
+2023-02-10 18:00:00,199,22.8068,82.7798,Foggy,40.5,99,42,Highway,Good,1,40,312,8.9,Afternoon,Fri,0,5,1742,Dark,Medium
+2023-02-10 19:00:00,215,16.0786,73.3563,Sunny,30.6,92,42,Rural,Fair,4,60,228,0.9,Evening,Thu,0,0,1718,Daylight,Low
+2023-02-10 20:00:00,830,16.0517,87.7323,Snowy,30.6,91,77,Residential,Good,4,60,373,9.2,Night,Wed,0,9,1270,Dark,Medium
+2023-02-10 21:00:00,629,22.7892,94.4962,Foggy,27.6,47,287,Rural,Fair,3,60,84,8.8,Morning,Fri,0,9,1905,Street Light,Medium
+2023-02-10 22:00:00,582,21.4704,86.2503,Cloudy,24.4,33,141,Rural,Poor,1,40,203,0.7,Night,Thu,0,9,1819,Street Light,Medium
+2023-02-10 23:00:00,717,13.7558,72.2038,Snowy,40.3,40,234,Rural,Good,3,40,287,2.5,Night,Tue,0,1,1125,Street Light,High
+2023-02-11 00:00:00,502,8.2261,69.5448,Snowy,40.1,51,216,Residential,Poor,4,60,195,9.6,Afternoon,Wed,1,1,1157,Street Light,High
+2023-02-11 01:00:00,892,33.2597,87.5375,Cloudy,9.4,58,111,Highway,Fair,3,80,345,3.5,Evening,Wed,1,4,1865,Dark,Low
+2023-02-11 02:00:00,145,16.7238,82.2293,Cloudy,37.9,88,48,Rural,Poor,6,60,211,8.4,Afternoon,Fri,0,8,1772,Daylight,Medium
+2023-02-11 03:00:00,835,9.2717,76.5795,Sunny,16.6,52,65,Rural,Poor,4,100,155,7.2,Morning,Thu,0,6,1627,Daylight,Medium
+2023-02-11 04:00:00,522,21.8134,69.5106,Cloudy,27.3,46,270,Rural,Poor,6,80,107,7.9,Night,Mon,0,1,739,Street Light,Medium
+2023-02-11 05:00:00,119,31.5934,94.6607,Cloudy,20.0,49,238,Rural,Poor,3,60,217,2.4,Morning,Thu,0,0,1973,Dark,High
+2023-02-11 06:00:00,555,10.1917,96.4219,Cloudy,18.1,32,137,Residential,Good,6,100,13,6.4,Afternoon,Sat,0,2,736,Daylight,Low
+2023-02-11 07:00:00,684,22.1015,75.9443,Cloudy,23.4,85,93,Rural,Good,2,100,342,9.6,Evening,Sun,0,9,1505,Street Light,Low
+2023-02-11 08:00:00,913,31.6946,82.9408,Sunny,44.7,41,98,Residential,Good,4,40,342,6.0,Night,Thu,0,7,634,Daylight,Low
+2023-02-11 09:00:00,140,26.8158,70.1689,Snowy,28.0,43,234,Rural,Fair,2,60,127,9.0,Morning,Thu,0,7,595,Dark,Medium
+2023-02-11 10:00:00,163,31.5312,94.8325,Snowy,22.2,77,225,City,Poor,4,80,355,1.6,Morning,Wed,0,9,1035,Daylight,High
+2023-02-11 11:00:00,595,24.87,71.5321,Rainy,10.2,50,129,Residential,Fair,2,80,121,4.3,Night,Tue,0,5,1692,Street Light,Medium
+2023-02-11 12:00:00,621,28.3271,95.3957,Cloudy,11.5,48,253,City,Poor,6,60,269,6.5,Morning,Tue,0,3,137,Daylight,Medium
+2023-02-11 13:00:00,355,15.6273,74.0212,Rainy,31.0,32,28,City,Fair,2,40,45,8.3,Afternoon,Thu,0,8,1121,Dark,Medium
+2023-02-11 14:00:00,787,18.3905,87.9512,Foggy,36.3,83,252,City,Good,6,40,314,2.7,Morning,Mon,0,4,1129,Street Light,High
+2023-02-11 15:00:00,934,12.4522,93.4003,Cloudy,36.6,54,193,Rural,Poor,2,60,178,2.6,Night,Mon,0,5,476,Dark,High
