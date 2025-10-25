@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRoads - Accident Risk Predictor</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Arial, sans-serif; background: #FFFFFF; min-height: 100vh; color: #1C1C1C; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .header { text-align: center; color: #DC143C; margin-bottom: 30px; }
+        .card { background: #FFFFFF; border-radius: 12px; padding: 30px; box-shadow: 0 8px 25px rgba(220, 20, 60, 0.15); border: 2px solid #DC143C; }
+        .form-group { margin-bottom: 20px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; color: #1C1C1C; }
+        input, select { width: 100%; padding: 12px; border: 2px solid #FFD700; border-radius: 6px; font-size: 16px; background: #FFFFFF; color: #1C1C1C; transition: all 0.3s; }
+        input:focus, select:focus { outline: none; border-color: #DC143C; box-shadow: 0 0 8px rgba(220, 20, 60, 0.3); }
+        .form-row { display: flex; gap: 15px; }
+        .form-row .form-group { flex: 1; }
+        .btn { background: #FFD700; color: #1C1C1C; padding: 15px 30px; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; width: 100%; transition: all 0.3s; font-weight: bold; }
+        .btn:hover { transform: translateY(-2px); box-shadow: 0 8px 20px rgba(255, 215, 0, 0.4); background: #FFC107; }
+        .result { margin-top: 20px; padding: 20px; border-radius: 8px; text-align: center; font-weight: bold; font-size: 18px; border: 2px solid; }
+        .result.low { background: rgba(76, 175, 80, 0.1); color: #1C1C1C; border-color: #4CAF50; }
+        .result.medium { background: rgba(255, 215, 0, 0.1); color: #1C1C1C; border-color: #FFD700; }
+        .result.high { background: rgba(220, 20, 60, 0.1); color: #1C1C1C; border-color: #DC143C; }
+        .stats { margin-top: 20px; background: #FFFFFF; padding: 20px; border-radius: 8px; border: 1px solid #FFD700; color: #1C1C1C; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚗 SafeRoads</h1>
+            <p>AI-Powered Accident Risk Prediction System</p>
+        </div>
+        
+        <div class="card">
+            <h2>Predict Accident Risk</h2>
+            <form id="predictionForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Weather Condition:</label>
+                        <select id="weather">
+                            <option value="0">Clear</option>
+                            <option value="1">Rain</option>
+                            <option value="2">Snow</option>
+                            <option value="3">Fog</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Road Type:</label>
+                        <select id="road_type">
+                            <option value="0">Highway</option>
+                            <option value="1">Urban</option>
+                            <option value="2">Rural</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Time of Day:</label>
+                        <select id="time_of_day">
+                            <option value="0">Morning (6AM-12PM)</option>
+                            <option value="1">Afternoon (12PM-6PM)</option>
+                            <option value="2">Evening (6PM-10PM)</option>
+                            <option value="3">Night (10PM-6AM)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Traffic Density:</label>
+                        <select id="traffic_density">
+                            <option value="0">Low</option>
+                            <option value="1">Medium</option>
+                            <option value="2">High</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn">Predict Risk Level</button>
+            </form>
+            
+            <div id="result" class="result" style="display: none;"></div>
+        </div>
+        
+        <div class="card stats" id="stats">
+            <h3>Dataset Statistics</h3>
+            <p>Loading statistics...</p>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('predictionForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const formData = {
+                weather: parseInt(document.getElementById('weather').value),
+                road_type: parseInt(document.getElementById('road_type').value),
+                time_of_day: parseInt(document.getElementById('time_of_day').value),
+                traffic_density: parseInt(document.getElementById('traffic_density').value)
+            };
+            
+            try {
+                const response = await fetch('/predict', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                
+                const result = await response.json();
+                const resultDiv = document.getElementById('result');
+                
+                if (result.success) {
+                    const riskEmoji = result.risk_level === 'Low' ? '🟢' : result.risk_level === 'Medium' ? '🟡' : '🔴';
+                    resultDiv.innerHTML = `
+                        <strong>${riskEmoji} Risk Level: ${result.risk_level}</strong><br>
+                        Confidence: ${result.confidence}<br>
+                        <small>Risk Score: ${result.risk_score}/6</small>
+                    `;
+                    resultDiv.className = `result ${result.risk_level.toLowerCase()}`;
+                } else {
+                    resultDiv.innerHTML = `Error: ${result.error}`;
+                    resultDiv.className = 'result high';
+                }
+                
+                resultDiv.style.display = 'block';
+            } catch (error) {
+                console.error('Error:', error);
+            }
+        });
+        
+        // Load statistics
+        fetch('/stats')
+            .then(response => response.json())
+            .then(data => {
+                if (!data.error) {
+                    document.getElementById('stats').innerHTML = `
+                        <h3>Dataset Statistics</h3>
+                        <p><strong>Total Records:</strong> ${data.total_records}</p>
+                        <p><strong>Risk Distribution:</strong> ${JSON.stringify(data.risk_distribution)}</p>
+                    `;
+                }
+            });
+    </script>
+</body>
+</html>
