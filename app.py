@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, jsonify
 import pandas as pd
 import pickle
 import os
-from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
 from sklearn.preprocessing import LabelEncoder, StandardScaler
 import numpy as np
 
@@ -20,13 +20,14 @@ def load_model():
             X_train = pd.read_csv('processed_data/X_train_processed.csv')
             y_train = pd.read_csv('processed_data/y_train_processed.csv').values.ravel()
             
-            model = RandomForestClassifier(random_state=42)
+            model = XGBClassifier(random_state=42, use_label_encoder=False, eval_metric='logloss')
             model.fit(X_train, y_train)
             
             with open(model_path, 'wb') as f:
                 pickle.dump(model, f)
             return model
-        except:
+        except Exception as e:
+            print(f"Error training model: {e}")
             return None
 
 model = load_model()
@@ -47,20 +48,11 @@ def predict():
         time_of_day = int(data.get('time_of_day', 0))  # 0=Morning, 1=Afternoon, 2=Evening, 3=Night
         
         # Calculate individual factor contributions
-        weather_score = 0
-        if weather == 1: weather_score = 1  # Rain
-        elif weather == 2: weather_score = 2  # Snow
-        elif weather == 3: weather_score = 1  # Fog
+        weather_score = {0: 0, 1: 1, 2: 2, 3: 1}.get(weather, 0)
+        traffic_score = traffic_density
+        road_score = {0: 0, 1: 1, 2: 0.5}.get(road_type, 0)
+        time_score = {0: 0, 1: 0, 2: 1, 3: 1.5}.get(time_of_day, 0)
         
-        traffic_score = traffic_density  # 0, 1, or 2
-        
-        road_score = 0
-        if road_type == 1: road_score = 1  # Urban roads more risky
-        elif road_type == 2: road_score = 0.5  # Rural moderate risk
-        
-        time_score = 0
-        if time_of_day == 2: time_score = 1  # Evening rush
-        elif time_of_day == 3: time_score = 1.5  # Night driving
         
         risk_score = weather_score + traffic_score + road_score + time_score
         
